@@ -99,7 +99,7 @@ out__<setting>/
 
 Same corruption code as the release, so the output is consistent with the paper.
 
-Image inputs must be square, `uint8`, side ∈ {28, 32, 64, 224}. Tabular inputs auto-detect the label column. Full input contract: [docs/usage.md](docs/usage.md).
+Image inputs must be square, `uint8`, side ∈ {28, 32, 64, 224}. Tabular inputs guess the label column from common names and ask you to confirm. Full input contract: [docs/usage.md](docs/usage.md).
 
 ---
 

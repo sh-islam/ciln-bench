@@ -1,10 +1,10 @@
-"""CILN-Bench: interactive starter pipeline.
+"""CILN-Bench: interactive dataset noisification starter.
 
 Lets a user point at their own dataset, pick a corruption, and write out a
 CILN-style corrupted dataset (plus reproducibility logs).
 
 Usage:
-    python run_pipeline.py
+    python noisify_dataset.py
 
 Hard rule: this script never modifies anything in the user's input path. All
 outputs go to a user-specified folder. We refuse to overwrite an existing
@@ -41,8 +41,20 @@ def pick_modality_path():
                 print(f"  -> {validators.summarize_image_dataset(data)}")
             else:
                 data = validators.load_tabular_dataset(path)
-                lbl = validators.detect_label_column(data)
-                if lbl is None:
+                guess = validators.detect_label_column(data)
+                if guess is not None:
+                    print(f"  guessed label column: {guess!r}")
+                    lbl = prompts.ask_text(
+                        f"Press Enter to keep, or type the column name to use",
+                        default=guess,
+                    )
+                    if lbl not in data.columns:
+                        print(f"  '{lbl}' is not a column; pick from the list")
+                        lbl = prompts.ask_choice(
+                            "Which column is the target label?",
+                            list(data.columns),
+                        )
+                else:
                     print("  (no label column auto-detected)")
                     lbl = prompts.ask_choice(
                         "Which column is the target label?",
