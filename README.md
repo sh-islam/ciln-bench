@@ -24,7 +24,7 @@ For each setting we ship: clean input $x_i$, corrupted input $\tilde{x}_i$, grou
 ciln-bench/
 ├── README.md
 ├── requirements.txt
-├── run_pipeline.py            # interactive CLI to corrupt your own data
+├── noisify_dataset.py         # interactive CLI to corrupt your own data
 ├── code/
 │   ├── corrupt/{canonical,public}/
 │   └── analyze/{canonical,public}/
@@ -84,7 +84,7 @@ Every corruption uses a seeded random number generator, and we log the seed for 
 ## Corrupt your own image
 
 ```bash
-python run_pipeline.py
+python noisify_dataset.py
 ```
 
 The script is an interactive CLI. You point it at an `.npy` (images) or `.csv`/`.parquet` (tabular), pick a corruption type and severity, and it writes:
@@ -113,9 +113,9 @@ Per-dataset detail pages:
 
 Released datasets (≈3.9 GB) are on HuggingFace, not in git:
 
-- CIFAR-10: *(uploading)*
-- MNIST: *(uploading)*
-- Adult: *(uploading)*
+- CIFAR-10: <https://huggingface.co/datasets/sh-islam/ciln-bench-cifar10>
+- MNIST: <https://huggingface.co/datasets/sh-islam/ciln-bench-mnist>
+- Adult: <https://huggingface.co/datasets/sh-islam/ciln-bench-adult>
 
 Each HF dataset has the clean inputs, corrupted inputs, voter softmaxes, aggregated label distributions, ground-truth labels, and per-image reproducibility logs.
 
