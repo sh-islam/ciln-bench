@@ -1,0 +1,94 @@
+{
+  "settings": [
+    {
+      "name": "gaussian_noise_sev1",
+      "noise_rate": 0.147265221878225,
+      "m1_rate_variance": 0.11559027455358624,
+      "m2_frobenius": 0.15925161676453964
+    },
+    {
+      "name": "gaussian_noise_sev3",
+      "noise_rate": 0.15182072829131651,
+      "m1_rate_variance": 0.11231086704377935,
+      "m2_frobenius": 0.15684186777860573
+    },
+    {
+      "name": "gaussian_noise_sev5",
+      "noise_rate": 0.1623617868199912,
+      "m1_rate_variance": 0.1096776277768939,
+      "m2_frobenius": 0.1579861354680311
+    },
+    {
+      "name": "missing_mar_sev1",
+      "noise_rate": 0.15748194014447886,
+      "m1_rate_variance": 0.11470824904608651,
+      "m2_frobenius": 0.15752152267394792
+    },
+    {
+      "name": "missing_mar_sev3",
+      "noise_rate": 0.19706619489901225,
+      "m1_rate_variance": 0.10640798355615623,
+      "m2_frobenius": 0.14402927060485798
+    },
+    {
+      "name": "missing_mar_sev5",
+      "noise_rate": 0.243859649122807,
+      "m1_rate_variance": 0.09011538621346904,
+      "m2_frobenius": 0.11921468042761216
+    },
+    {
+      "name": "missing_mcar_sev1",
+      "noise_rate": 0.1575703965796845,
+      "m1_rate_variance": 0.1148785653973886,
+      "m2_frobenius": 0.15704572726882013
+    },
+    {
+      "name": "missing_mcar_sev3",
+      "noise_rate": 0.1967860828541943,
+      "m1_rate_variance": 0.1047648230906229,
+      "m2_frobenius": 0.1411196804330075
+    },
+    {
+      "name": "missing_mcar_sev5",
+      "noise_rate": 0.24571723426212588,
+      "m1_rate_variance": 0.08111118618946837,
+      "m2_frobenius": 0.10704014862184298
+    },
+    {
+      "name": "missing_mnar_sev1",
+      "noise_rate": 0.15739348370927317,
+      "m1_rate_variance": 0.10956334784533743,
+      "m2_frobenius": 0.14687675727622587
+    },
+    {
+      "name": "missing_mnar_sev3",
+      "noise_rate": 0.2058381247235736,
+      "m1_rate_variance": 0.0768067854529616,
+      "m2_frobenius": 0.09812185559939933
+    },
+    {
+      "name": "missing_mnar_sev5",
+      "noise_rate": 0.2632905793896506,
+      "m1_rate_variance": 0.03304815100669267,
+      "m2_frobenius": 0.04605655167648823
+    },
+    {
+      "name": "scaling_sev1",
+      "noise_rate": 0.15929529706619489,
+      "m1_rate_variance": 0.11849327655899417,
+      "m2_frobenius": 0.1714233732090374
+    },
+    {
+      "name": "scaling_sev3",
+      "noise_rate": 0.20477664750110572,
+      "m1_rate_variance": 0.12287609557039283,
+      "m2_frobenius": 0.20083434769750325
+    },
+    {
+      "name": "scaling_sev5",
+      "noise_rate": 0.25995872033023737,
+      "m1_rate_variance": 0.11400553107302328,
+      "m2_frobenius": 0.20904446945581584
+    }
+  ]
+}

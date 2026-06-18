@@ -1,0 +1,22 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+
+# Smoke-test / scratch outputs from run_pipeline.py
+out__*/
+toy_images.npy
+toy_tabular.csv
+
+# OS / editor cruft
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
+
+# Virtual environments
+.venv/
+venv/
+env/
