@@ -54,6 +54,46 @@ def summarize_image_dataset(arr: np.ndarray) -> str:
     return f"{n} {kind} images, {h}x{w}, dtype={arr.dtype}"
 
 
+def load_image_labels(path: str, n_images_expected: int) -> np.ndarray:
+    """Load labels from .npy and verify they line up with the images by index.
+
+    Labels are expected to be 1D, integer-valued, length ``n_images_expected``.
+    """
+    p = Path(path)
+    if not p.exists():
+        raise FileNotFoundError(f"Labels path does not exist: {path}")
+    if p.suffix != ".npy":
+        raise ValueError(f"Expected a .npy file. Got: {p.suffix}")
+    arr = np.load(p)
+    if arr.ndim != 1:
+        raise ValueError(
+            f"Labels array must be 1D (one label per image). Got shape {arr.shape}"
+        )
+    if len(arr) != n_images_expected:
+        raise ValueError(
+            f"Labels length {len(arr)} does not match number of images "
+            f"({n_images_expected}). They must line up by index."
+        )
+    if arr.dtype.kind not in ("i", "u"):
+        # Not strictly fatal; warn and cast if possible.
+        if np.all(arr == arr.astype(np.int64)):
+            arr = arr.astype(np.int64)
+        else:
+            raise ValueError(
+                f"Labels must be integers (class IDs). Got dtype {arr.dtype} "
+                f"with non-integer values."
+            )
+    return arr
+
+
+def summarize_image_labels(labels: np.ndarray) -> str:
+    n = len(labels)
+    classes = np.unique(labels)
+    return (f"{n} labels, dtype={labels.dtype}, "
+            f"{len(classes)} unique class{'es' if len(classes) != 1 else ''} "
+            f"({classes.min()}–{classes.max()})")
+
+
 # ---------------- Tabular ----------------
 def load_tabular_dataset(path: str):
     """Load a tabular dataset from .parquet or .csv. Returns a pandas DataFrame."""

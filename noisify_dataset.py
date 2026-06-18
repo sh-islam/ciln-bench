@@ -39,6 +39,8 @@ def pick_modality_path():
             if modality == "image":
                 data = validators.load_image_dataset(path)
                 print(f"  -> {validators.summarize_image_dataset(data)}")
+                labels = _ask_image_labels(len(data))
+                return modality, path, data, labels
             else:
                 data = validators.load_tabular_dataset(path)
                 guess = validators.detect_label_column(data)
@@ -62,7 +64,23 @@ def pick_modality_path():
                     )
                 print(f"  -> {validators.summarize_tabular_dataset(data, lbl)}")
                 data.attrs["__label_col__"] = lbl
-            return modality, path, data
+                return modality, path, data, None  # tabular: labels live in the dataframe column
+        except Exception as e:
+            print(f"  ERROR: {e}")
+            print("  Try again, or Ctrl-C to quit.")
+
+
+def _ask_image_labels(n_images_expected):
+    """Prompt for a labels .npy and validate it lines up with the images."""
+    while True:
+        labels_path = prompts.ask_text(
+            "Path to labels .npy (must line up with the images by index)",
+            default=None,
+        )
+        try:
+            labels = validators.load_image_labels(labels_path, n_images_expected)
+            print(f"  -> {validators.summarize_image_labels(labels)}")
+            return labels
         except Exception as e:
             print(f"  ERROR: {e}")
             print("  Try again, or Ctrl-C to quit.")
@@ -137,7 +155,7 @@ def write_output(out_dir: Path, manifest: dict, params_log: list,
 def main():
     banner()
     try:
-        modality, in_path, data = pick_modality_path()
+        modality, in_path, data, image_labels = pick_modality_path()
         modality_spec = registry.get_modality(modality)
 
         fam, type_obj, severity = pick_corruption(modality_spec)
@@ -166,7 +184,6 @@ def main():
         if modality == "image":
             corrupted, params_log = apply.corrupt_image_dataset(
                 data, type_obj.name, severity, setting_key)
-            labels = None  # user's labels stay as their own file; we don't read them
             manifest = {
                 "modality": "image",
                 "family": fam.name,
@@ -178,7 +195,9 @@ def main():
                 "timestamp": int(t0),
             }
             write_output(out_dir, manifest, params_log,
-                         corrupted_payload=corrupted, original=data)
+                         corrupted_payload=corrupted,
+                         labels=image_labels,
+                         original=data)
         else:
             corrupted, params_log = apply.corrupt_tabular_dataset(
                 data, type_obj.name, severity,
