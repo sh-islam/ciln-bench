@@ -1,0 +1,48 @@
+[load_adult] fetching from OpenML (id=1590)...
+[load_adult] dropped 3620 incomplete rows (7.4%); kept 45222
+[load_adult] train=30147  test=15075
+/home/misla2/thesis/python/mnist_corruptions/journal_edition/tabular/train/train_mlp.py:98: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at ../torch/csrc/utils/tensor_numpy.cpp:206.)
+  torch.from_numpy(Xn), torch.from_numpy(Xc), torch.from_numpy(y).long()
+[mlp/adult] ep 1  tr_loss=0.4092 tr_acc=0.7987  val_loss=0.3610 val_acc=0.8255
+[mlp/adult] ep 2  tr_loss=0.3609 tr_acc=0.8311  val_loss=0.3457 val_acc=0.8325
+[mlp/adult] ep 3  tr_loss=0.3557 tr_acc=0.8346  val_loss=0.3448 val_acc=0.8308
+[mlp/adult] ep 4  tr_loss=0.3526 tr_acc=0.8357  val_loss=0.3467 val_acc=0.8348
+[mlp/adult] ep 5  tr_loss=0.3460 tr_acc=0.8379  val_loss=0.3340 val_acc=0.8461
+[mlp/adult] ep 6  tr_loss=0.3424 tr_acc=0.8410  val_loss=0.3329 val_acc=0.8428
+[mlp/adult] ep 7  tr_loss=0.3389 tr_acc=0.8411  val_loss=0.3341 val_acc=0.8428
+[mlp/adult] ep 8  tr_loss=0.3358 tr_acc=0.8417  val_loss=0.3306 val_acc=0.8405
+[mlp/adult] ep 9  tr_loss=0.3345 tr_acc=0.8429  val_loss=0.3340 val_acc=0.8441
+[mlp/adult] ep 10  tr_loss=0.3335 tr_acc=0.8434  val_loss=0.3367 val_acc=0.8405
+[mlp/adult] ep 11  tr_loss=0.3308 tr_acc=0.8441  val_loss=0.3296 val_acc=0.8425
+[mlp/adult] ep 12  tr_loss=0.3305 tr_acc=0.8438  val_loss=0.3247 val_acc=0.8401
+[mlp/adult] ep 13  tr_loss=0.3258 tr_acc=0.8463  val_loss=0.3306 val_acc=0.8418
+[mlp/adult] ep 14  tr_loss=0.3255 tr_acc=0.8462  val_loss=0.3249 val_acc=0.8418
+[mlp/adult] ep 15  tr_loss=0.3258 tr_acc=0.8471  val_loss=0.3316 val_acc=0.8338
+[mlp/adult] ep 16  tr_loss=0.3224 tr_acc=0.8483  val_loss=0.3360 val_acc=0.8415
+[mlp/adult] ep 17  tr_loss=0.3241 tr_acc=0.8459  val_loss=0.3269 val_acc=0.8411
+[mlp/adult] ep 18  tr_loss=0.3175 tr_acc=0.8506  val_loss=0.3386 val_acc=0.8405
+[mlp/adult] ep 19  tr_loss=0.3195 tr_acc=0.8487  val_loss=0.3323 val_acc=0.8468
+[mlp/adult] ep 20  tr_loss=0.3169 tr_acc=0.8496  val_loss=0.3377 val_acc=0.8468
+[mlp/adult] ep 21  tr_loss=0.3143 tr_acc=0.8505  val_loss=0.3368 val_acc=0.8418
+[mlp/adult] ep 22  tr_loss=0.3135 tr_acc=0.8514  val_loss=0.3430 val_acc=0.8431
+[mlp/adult] ep 23  tr_loss=0.3147 tr_acc=0.8494  val_loss=0.3391 val_acc=0.8401
+[mlp/adult] ep 24  tr_loss=0.3093 tr_acc=0.8529  val_loss=0.3394 val_acc=0.8448
+[mlp/adult] ep 25  tr_loss=0.3083 tr_acc=0.8525  val_loss=0.3460 val_acc=0.8385
+[mlp/adult] ep 26  tr_loss=0.3072 tr_acc=0.8534  val_loss=0.3520 val_acc=0.8385
+[mlp/adult] ep 27  tr_loss=0.3058 tr_acc=0.8546  val_loss=0.3588 val_acc=0.8388
+[mlp/adult] ep 28  tr_loss=0.3060 tr_acc=0.8542  val_loss=0.3534 val_acc=0.8405
+[mlp/adult] ep 29  tr_loss=0.3021 tr_acc=0.8558  val_loss=0.3699 val_acc=0.8395
+[mlp/adult] ep 30  tr_loss=0.3019 tr_acc=0.8566  val_loss=0.3578 val_acc=0.8381
+[mlp/adult] ep 31  tr_loss=0.2981 tr_acc=0.8565  val_loss=0.3639 val_acc=0.8451
+[mlp/adult] ep 32  tr_loss=0.2988 tr_acc=0.8578  val_loss=0.3781 val_acc=0.8388
+[mlp/adult] ep 33  tr_loss=0.2988 tr_acc=0.8580  val_loss=0.3985 val_acc=0.8265
+[mlp/adult] ep 34  tr_loss=0.2961 tr_acc=0.8582  val_loss=0.3718 val_acc=0.8368
+[mlp/adult] ep 35  tr_loss=0.2971 tr_acc=0.8570  val_loss=0.3960 val_acc=0.8398
+[mlp/adult] early stop at epoch 35 (best ep 19)
+
+=== DONE [mlp/adult] ===
+  best val acc:  0.8468 at iter/ep 19
+  test acc:      0.8397
+  train acc:     0.8529
+  total time:    0.4 min
+[save] /home/misla2/thesis/python/mnist_corruptions/journal_edition/tabular/reports/mlp_adult.json

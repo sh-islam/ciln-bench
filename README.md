@@ -24,13 +24,16 @@ For each setting we ship: clean input $x_i$, corrupted input $\tilde{x}_i$, grou
 ciln-bench/
 ├── README.md
 ├── requirements.txt
-├── noisify_dataset.py         # interactive CLI to corrupt your own data
+├── noisify_dataset.py           # interactive CLI to corrupt your own data
 ├── code/
-│   ├── corrupt/{canonical,public}/
-│   └── analyze/{canonical,public}/
-├── tests/check_equivalence.py # asserts public == canonical bit-for-bit
-├── examples/                  # reproduction scripts (results/ → numbers)
-├── results/                   # pre-computed VDV / TV per setting (JSON)
+│   ├── corrupt/{canonical,public}/  # corruption operators
+│   ├── analyze/{canonical,public}/  # TV, VDV, N-th analysis
+│   ├── train/{image,tabular,text}/  # voter training scripts
+│   └── infer/                       # voter_adapters: weights → softmax
+├── tests/check_equivalence.py   # asserts public == canonical bit-for-bit
+├── examples/                    # reproduction scripts + toy fixtures
+├── logs/{image,tabular,text}/   # voter training provenance (CSV + stdout)
+├── results/                     # pre-computed VDV / TV per setting (JSON)
 └── docs/{figures,datasets}/
 ```
 

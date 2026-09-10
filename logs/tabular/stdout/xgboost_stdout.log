@@ -1,0 +1,10 @@
+[load_adult] fetching from OpenML (id=1590)...
+[load_adult] dropped 3620 incomplete rows (7.4%); kept 45222
+[load_adult] train=30147  test=15075
+
+=== DONE [xgboost/adult] ===
+  best val acc:  0.8789 at iter/ep 572
+  test acc:      0.8655
+  train acc:     0.8911
+  total time:    2.3 min
+[save] /home/misla2/thesis/python/mnist_corruptions/journal_edition/tabular/reports/xgboost_adult.json
