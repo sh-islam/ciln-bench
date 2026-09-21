@@ -13,6 +13,8 @@ CILN-Bench is a collection of datasets with instance-dependent label noise. Each
 | Adult | 15 | 5 | 14.7% to 26.3% | [HF](https://huggingface.co/datasets/sh-islam/ciln-bench-adult) | [adult.md](docs/datasets/adult.md) |
 | AG-News | 6 | 4 | 13.0% to 46.6% | [HF](https://huggingface.co/datasets/sh-islam/ciln-bench-agnews) | [agnews.md](docs/datasets/agnews.md) |
 
+Dataset and checkpoint links are redacted for double-blind review and will be restored upon acceptance. All numbers in the paper can be rebuilt from the code and shipped data in this repository (see [docs/reproducing.md](docs/reproducing.md)).
+
 Voter checkpoints: [sh-islam/ciln-bench-voters](https://huggingface.co/sh-islam/ciln-bench-voters). The full list of settings with noise rates is in [`results/released_settings.json`](results/released_settings.json).
 
 Each setting has the clean inputs, the corrupted inputs, the true labels, every voter's softmax, the average softmax, the corruption seed of every row, and the training labels we sampled for the paper. Each dataset also has its clean-start mask and its split index files.
