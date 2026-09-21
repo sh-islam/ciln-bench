@@ -1,0 +1,14 @@
+# 2026-07-16T00:28:29.062687 | cmd = python /path/to/ciln-workspace/experiments/downstream_adult/train/train_adult_coteaching_v2.py --setting missing_mcar_sev1 --variant S --image-source noisy --seed 0 --gpu 1
+[CoT] missing_mcar_sev1__S__coteaching__noisy__seed0  gpu=1
+[load_adult] fetching from OpenML (id=1590)...
+[load_adult] dropped 3620 incomplete rows (7.4%); kept 45222
+[load_adult] train=30147  test=15075
+  N=13566  sampled_nr=15.96%  expected_nr=15.76%
+  ep   0  fr=0.000  a=0.8356  b=0.8363  ens=0.8362  best_ens=0.8362@0
+  ep   5  fr=0.113  a=0.8377  b=0.8364  ens=0.8371  best_ens=0.8403@1
+  ep  10  fr=0.160  a=0.8268  b=0.8289  ens=0.8277  best_ens=0.8403@1
+  ep  15  fr=0.160  a=0.8269  b=0.8267  ens=0.8268  best_ens=0.8403@1
+  early stop at ep 17
+  DONE  best_ens=0.8403  saved missing_mcar_sev1__S__coteaching__noisy__seed0.json + persample.npz
+
+# exit=0

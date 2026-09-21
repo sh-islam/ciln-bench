@@ -1,0 +1,27 @@
+# 2026-07-16T21:24:48.753609 | cmd = python /path/to/ciln-workspace/experiments/downstream_multimodal/train_mnist/train_mnist_coteaching.py --setting canny_edges_sev1 --variant C --image-source clean --seed 2 --gpu 2
+[MNIST CoT] canny_edges_sev1__C__coteaching__clean__seed2  gpu=2
+  N=26107  tau=30.66%
+  ep   0  R(t)=1.000  a=73.41%  b=76.76%  ens=75.67%  best_ens=75.67%@0
+  ep   5  R(t)=0.783  a=76.89%  b=78.45%  ens=77.98%  best_ens=84.75%@4
+  ep  10  R(t)=0.693  a=83.17%  b=83.72%  ens=83.73%  best_ens=84.75%@4
+  ep  15  R(t)=0.693  a=86.65%  b=86.96%  ens=86.96%  best_ens=86.96%@15
+  ep  20  R(t)=0.693  a=81.17%  b=80.25%  ens=80.97%  best_ens=86.96%@15
+  ep  25  R(t)=0.693  a=85.49%  b=86.78%  ens=86.31%  best_ens=86.96%@15
+  ep  30  R(t)=0.693  a=78.24%  b=78.39%  ens=78.54%  best_ens=88.27%@27
+  ep  35  R(t)=0.693  a=85.57%  b=87.12%  ens=86.56%  best_ens=88.27%@27
+  ep  40  R(t)=0.693  a=83.29%  b=80.95%  ens=82.07%  best_ens=88.27%@27
+  ep  45  R(t)=0.693  a=81.90%  b=82.10%  ens=82.14%  best_ens=88.27%@27
+  ep  50  R(t)=0.693  a=83.77%  b=84.30%  ens=84.16%  best_ens=88.27%@27
+  ep  55  R(t)=0.693  a=87.77%  b=86.79%  ens=87.47%  best_ens=88.27%@27
+  ep  60  R(t)=0.693  a=80.68%  b=82.80%  ens=81.93%  best_ens=88.27%@27
+  ep  65  R(t)=0.693  a=79.24%  b=79.98%  ens=79.57%  best_ens=88.27%@27
+  ep  70  R(t)=0.693  a=83.63%  b=83.50%  ens=83.79%  best_ens=88.27%@27
+  ep  75  R(t)=0.693  a=82.87%  b=83.43%  ens=83.22%  best_ens=88.27%@27
+  ep  80  R(t)=0.693  a=82.12%  b=81.84%  ens=82.00%  best_ens=88.27%@27
+  ep  85  R(t)=0.693  a=82.98%  b=83.38%  ens=83.13%  best_ens=88.27%@27
+  ep  90  R(t)=0.693  a=82.32%  b=82.71%  ens=82.50%  best_ens=88.27%@27
+  ep  95  R(t)=0.693  a=82.43%  b=82.47%  ens=82.49%  best_ens=88.27%@27
+  ep  99  R(t)=0.693  a=82.50%  b=82.50%  ens=82.53%  best_ens=88.27%@27
+  DONE  best_ens=88.27%  saved canny_edges_sev1__C__coteaching__clean__seed2.json + persample.npz
+
+# exit=0

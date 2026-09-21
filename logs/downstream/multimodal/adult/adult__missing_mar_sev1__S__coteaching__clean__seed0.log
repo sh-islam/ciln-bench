@@ -1,0 +1,22 @@
+# 2026-07-16T01:45:43.144991 | cmd = python /path/to/ciln-workspace/experiments/downstream_adult/train/train_adult_coteaching_v2.py --setting missing_mar_sev1 --variant S --image-source clean --seed 0 --gpu 1
+[CoT] missing_mar_sev1__S__coteaching__clean__seed0  gpu=1
+[load_adult] fetching from OpenML (id=1590)...
+[load_adult] dropped 3620 incomplete rows (7.4%); kept 45222
+[load_adult] train=30147  test=15075
+  N=13566  sampled_nr=15.70%  expected_nr=15.75%
+[load_adult] fetching from OpenML (id=1590)...
+[load_adult] dropped 3620 incomplete rows (7.4%); kept 45222
+[load_adult] train=30147  test=15075
+  ep   0  fr=0.000  a=0.7522  b=0.7522  ens=0.7522  best_ens=0.7522@0
+  ep   5  fr=0.111  a=0.7521  b=0.7522  ens=0.7521  best_ens=0.7522@0
+  ep  10  fr=0.157  a=0.7523  b=0.7522  ens=0.7526  best_ens=0.7526@10
+  ep  15  fr=0.157  a=0.7517  b=0.7511  ens=0.7520  best_ens=0.7526@10
+  ep  20  fr=0.157  a=0.7521  b=0.7516  ens=0.7517  best_ens=0.7533@18
+  ep  25  fr=0.157  a=0.7503  b=0.7500  ens=0.7503  best_ens=0.7534@24
+  ep  30  fr=0.157  a=0.7461  b=0.7483  ens=0.7477  best_ens=0.7534@24
+  ep  35  fr=0.157  a=0.7455  b=0.7461  ens=0.7469  best_ens=0.7534@24
+  ep  40  fr=0.157  a=0.7484  b=0.7466  ens=0.7479  best_ens=0.7534@24
+  early stop at ep 40
+  DONE  best_ens=0.7534  saved missing_mar_sev1__S__coteaching__clean__seed0.json + persample.npz
+
+# exit=0

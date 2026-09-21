@@ -1,0 +1,17 @@
+[ERM] setting=gaussian_noise_sev5  image_source=clean  seed=2  gpu=1
+[load_adult] fetching from OpenML (id=1590)...
+[load_adult] dropped 3620 incomplete rows (7.4%); kept 45222
+[load_adult] train=30147  test=15075
+[load_adult] fetching from OpenML (id=1590)...
+[load_adult] dropped 3620 incomplete rows (7.4%); kept 45222
+[load_adult] train=30147  test=15075
+  loaded 13566 training rows, label diversity = 2
+  ep   0  train_loss=0.5377  test_acc=0.7522  best=0.7522@0
+  ep   5  train_loss=0.5105  test_acc=0.7522  best=0.7522@0
+  ep  10  train_loss=0.5081  test_acc=0.7520  best=0.7522@0
+  ep  15  train_loss=0.5026  test_acc=0.7520  best=0.7528@12
+  ep  20  train_loss=0.4957  test_acc=0.7499  best=0.7537@18
+  ep  25  train_loss=0.4875  test_acc=0.7495  best=0.7537@18
+  ep  30  train_loss=0.4745  test_acc=0.7512  best=0.7537@18
+  early stop at epoch 34 (no improvement for 16 epochs)
+  DONE  best_test_acc=0.7537  saved /path/to/ciln-workspace/experiments/downstream_adult/results/gaussian_noise_sev5__erm__clean__seed2.json

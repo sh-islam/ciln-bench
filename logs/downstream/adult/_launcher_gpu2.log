@@ -1,0 +1,43 @@
+============================================================
+ Adult downstream grid: gpu2 (coteaching on GPU 2)
+ Mon Jun 22 06:01:47 PM EDT 2026
+============================================================
+[start] gaussian_noise_sev5__coteaching__clean__seed0 (attempt 1) -> /path/to/ciln-workspace/experiments/downstream_adult/logs/gaussian_noise_sev5__coteaching__clean__seed0.log
+[ok]    gaussian_noise_sev5__coteaching__clean__seed0
+[start] gaussian_noise_sev5__coteaching__clean__seed1 (attempt 1) -> /path/to/ciln-workspace/experiments/downstream_adult/logs/gaussian_noise_sev5__coteaching__clean__seed1.log
+[ok]    gaussian_noise_sev5__coteaching__clean__seed1
+[start] gaussian_noise_sev5__coteaching__clean__seed2 (attempt 1) -> /path/to/ciln-workspace/experiments/downstream_adult/logs/gaussian_noise_sev5__coteaching__clean__seed2.log
+[ok]    gaussian_noise_sev5__coteaching__clean__seed2
+[start] gaussian_noise_sev5__coteaching__noisy__seed0 (attempt 1) -> /path/to/ciln-workspace/experiments/downstream_adult/logs/gaussian_noise_sev5__coteaching__noisy__seed0.log
+[ok]    gaussian_noise_sev5__coteaching__noisy__seed0
+[start] gaussian_noise_sev5__coteaching__noisy__seed1 (attempt 1) -> /path/to/ciln-workspace/experiments/downstream_adult/logs/gaussian_noise_sev5__coteaching__noisy__seed1.log
+[ok]    gaussian_noise_sev5__coteaching__noisy__seed1
+[start] gaussian_noise_sev5__coteaching__noisy__seed2 (attempt 1) -> /path/to/ciln-workspace/experiments/downstream_adult/logs/gaussian_noise_sev5__coteaching__noisy__seed2.log
+[ok]    gaussian_noise_sev5__coteaching__noisy__seed2
+[start] scaling_sev5__coteaching__clean__seed0 (attempt 1) -> /path/to/ciln-workspace/experiments/downstream_adult/logs/scaling_sev5__coteaching__clean__seed0.log
+[ok]    scaling_sev5__coteaching__clean__seed0
+[start] scaling_sev5__coteaching__clean__seed1 (attempt 1) -> /path/to/ciln-workspace/experiments/downstream_adult/logs/scaling_sev5__coteaching__clean__seed1.log
+[ok]    scaling_sev5__coteaching__clean__seed1
+[start] scaling_sev5__coteaching__clean__seed2 (attempt 1) -> /path/to/ciln-workspace/experiments/downstream_adult/logs/scaling_sev5__coteaching__clean__seed2.log
+[ok]    scaling_sev5__coteaching__clean__seed2
+[start] scaling_sev5__coteaching__noisy__seed0 (attempt 1) -> /path/to/ciln-workspace/experiments/downstream_adult/logs/scaling_sev5__coteaching__noisy__seed0.log
+[ok]    scaling_sev5__coteaching__noisy__seed0
+[start] scaling_sev5__coteaching__noisy__seed1 (attempt 1) -> /path/to/ciln-workspace/experiments/downstream_adult/logs/scaling_sev5__coteaching__noisy__seed1.log
+[ok]    scaling_sev5__coteaching__noisy__seed1
+[start] scaling_sev5__coteaching__noisy__seed2 (attempt 1) -> /path/to/ciln-workspace/experiments/downstream_adult/logs/scaling_sev5__coteaching__noisy__seed2.log
+[ok]    scaling_sev5__coteaching__noisy__seed2
+[start] missing_mnar_sev5__coteaching__clean__seed0 (attempt 1) -> /path/to/ciln-workspace/experiments/downstream_adult/logs/missing_mnar_sev5__coteaching__clean__seed0.log
+[ok]    missing_mnar_sev5__coteaching__clean__seed0
+[start] missing_mnar_sev5__coteaching__clean__seed1 (attempt 1) -> /path/to/ciln-workspace/experiments/downstream_adult/logs/missing_mnar_sev5__coteaching__clean__seed1.log
+[ok]    missing_mnar_sev5__coteaching__clean__seed1
+[start] missing_mnar_sev5__coteaching__clean__seed2 (attempt 1) -> /path/to/ciln-workspace/experiments/downstream_adult/logs/missing_mnar_sev5__coteaching__clean__seed2.log
+[ok]    missing_mnar_sev5__coteaching__clean__seed2
+[start] missing_mnar_sev5__coteaching__noisy__seed0 (attempt 1) -> /path/to/ciln-workspace/experiments/downstream_adult/logs/missing_mnar_sev5__coteaching__noisy__seed0.log
+[ok]    missing_mnar_sev5__coteaching__noisy__seed0
+[start] missing_mnar_sev5__coteaching__noisy__seed1 (attempt 1) -> /path/to/ciln-workspace/experiments/downstream_adult/logs/missing_mnar_sev5__coteaching__noisy__seed1.log
+[ok]    missing_mnar_sev5__coteaching__noisy__seed1
+[start] missing_mnar_sev5__coteaching__noisy__seed2 (attempt 1) -> /path/to/ciln-workspace/experiments/downstream_adult/logs/missing_mnar_sev5__coteaching__noisy__seed2.log
+[ok]    missing_mnar_sev5__coteaching__noisy__seed2
+============================================================
+ DONE: 18 ok, 0 failed   Mon Jun 22 06:27:36 PM EDT 2026
+============================================================

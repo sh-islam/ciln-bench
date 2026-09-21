@@ -1,0 +1,27 @@
+# 2026-07-20T05:09:30.095129 | cmd = python /path/to/ciln-workspace/experiments/downstream_multimodal/train_agnews/train_agnews_erm.py --setting front_truncation_sev1 --variant S --image-source clean --seed 1 --gpu 2
+[AGN ERM] front_truncation_sev1__S__erm__clean__seed1  gpu=2
+  N=50000  sampled_nr=13.13%
+  ep   0  train_loss=0.7248  test_acc=85.64%  best=85.64%@0
+  ep   5  train_loss=0.2239  test_acc=87.07%  best=87.78%@2
+  ep  10  train_loss=0.1152  test_acc=85.82%  best=87.78%@2
+  ep  15  train_loss=0.0819  test_acc=85.00%  best=87.78%@2
+  ep  20  train_loss=0.0596  test_acc=85.17%  best=87.78%@2
+  ep  25  train_loss=0.0541  test_acc=85.38%  best=87.78%@2
+  ep  30  train_loss=0.0414  test_acc=85.00%  best=87.78%@2
+  ep  35  train_loss=0.0343  test_acc=85.14%  best=87.78%@2
+  ep  40  train_loss=0.0285  test_acc=84.72%  best=87.78%@2
+  ep  45  train_loss=0.0233  test_acc=85.08%  best=87.78%@2
+  ep  50  train_loss=0.0206  test_acc=84.82%  best=87.78%@2
+  ep  55  train_loss=0.0170  test_acc=84.91%  best=87.78%@2
+  ep  60  train_loss=0.0123  test_acc=84.86%  best=87.78%@2
+  ep  65  train_loss=0.0092  test_acc=85.28%  best=87.78%@2
+  ep  70  train_loss=0.0076  test_acc=85.33%  best=87.78%@2
+  ep  75  train_loss=0.0065  test_acc=85.30%  best=87.78%@2
+  ep  80  train_loss=0.0054  test_acc=85.41%  best=87.78%@2
+  ep  85  train_loss=0.0043  test_acc=85.63%  best=87.78%@2
+  ep  90  train_loss=0.0040  test_acc=85.58%  best=87.78%@2
+  ep  95  train_loss=0.0035  test_acc=85.46%  best=87.78%@2
+  ep  99  train_loss=0.0036  test_acc=85.47%  best=87.78%@2
+  DONE  best=87.78%  saved front_truncation_sev1__S__erm__clean__seed1.json + persample.npz
+
+# exit=0

@@ -1,0 +1,15 @@
+=== GPU1  ERM phase ===
+[15:53:31] GPU1  train_erm_v4.py  cond=ours_v2_clean__pixelate_sev5  seed=0  -> /path/to/ciln-workspace/journal_edition/robustness_transfer/logs/v4/train_erm_v4__ours_v2_clean__pixelate_sev5__seed0.log
+[16:04:23] GPU1  train_erm_v4.py  cond=ours_v2_clean__pixelate_sev5  seed=1  -> /path/to/ciln-workspace/journal_edition/robustness_transfer/logs/v4/train_erm_v4__ours_v2_clean__pixelate_sev5__seed1.log
+[16:14:37] GPU1  train_erm_v4.py  cond=ours_v2_clean__pixelate_sev5  seed=2  -> /path/to/ciln-workspace/journal_edition/robustness_transfer/logs/v4/train_erm_v4__ours_v2_clean__pixelate_sev5__seed2.log
+[16:25:57] GPU1  train_erm_v4.py  cond=ours_v2_clean__glass_blur_sev3  seed=0  -> /path/to/ciln-workspace/journal_edition/robustness_transfer/logs/v4/train_erm_v4__ours_v2_clean__glass_blur_sev3__seed0.log
+[16:37:04] GPU1  train_erm_v4.py  cond=ours_v2_clean__glass_blur_sev3  seed=1  -> /path/to/ciln-workspace/journal_edition/robustness_transfer/logs/v4/train_erm_v4__ours_v2_clean__glass_blur_sev3__seed1.log
+[16:49:07] GPU1  train_erm_v4.py  cond=ours_v2_clean__glass_blur_sev3  seed=2  -> /path/to/ciln-workspace/journal_edition/robustness_transfer/logs/v4/train_erm_v4__ours_v2_clean__glass_blur_sev3__seed2.log
+=== GPU1  Co-Teaching phase ===
+[17:00:43] GPU1  train_coteaching_v4.py  cond=ours_v2_clean__pixelate_sev5  seed=0  -> /path/to/ciln-workspace/journal_edition/robustness_transfer/logs/v4/train_coteaching_v4__ours_v2_clean__pixelate_sev5__seed0.log
+[17:20:13] GPU1  train_coteaching_v4.py  cond=ours_v2_clean__pixelate_sev5  seed=1  -> /path/to/ciln-workspace/journal_edition/robustness_transfer/logs/v4/train_coteaching_v4__ours_v2_clean__pixelate_sev5__seed1.log
+[17:38:23] GPU1  train_coteaching_v4.py  cond=ours_v2_clean__pixelate_sev5  seed=2  -> /path/to/ciln-workspace/journal_edition/robustness_transfer/logs/v4/train_coteaching_v4__ours_v2_clean__pixelate_sev5__seed2.log
+[17:57:46] GPU1  train_coteaching_v4.py  cond=ours_v2_clean__glass_blur_sev3  seed=0  -> /path/to/ciln-workspace/journal_edition/robustness_transfer/logs/v4/train_coteaching_v4__ours_v2_clean__glass_blur_sev3__seed0.log
+[18:19:22] GPU1  train_coteaching_v4.py  cond=ours_v2_clean__glass_blur_sev3  seed=1  -> /path/to/ciln-workspace/journal_edition/robustness_transfer/logs/v4/train_coteaching_v4__ours_v2_clean__glass_blur_sev3__seed1.log
+[18:44:26] GPU1  train_coteaching_v4.py  cond=ours_v2_clean__glass_blur_sev3  seed=2  -> /path/to/ciln-workspace/journal_edition/robustness_transfer/logs/v4/train_coteaching_v4__ours_v2_clean__glass_blur_sev3__seed2.log
+[19:05:29] GPU1  DONE.

@@ -1,0 +1,27 @@
+# 2026-07-20T13:49:19.956389 | cmd = python /path/to/ciln-workspace/experiments/downstream_multimodal/train_agnews/train_agnews_coteaching.py --setting front_truncation_sev3 --variant C --image-source clean --seed 0 --gpu 1
+[AGN CoT] front_truncation_sev3__C__coteaching__clean__seed0  gpu=1
+  N=35066  tau=7.62%
+  ep   0  R(t)=1.000  a=81.34%  b=82.14%  ens=82.07%  best_ens=82.07%@0
+  ep   5  R(t)=0.946  a=84.91%  b=85.30%  ens=85.70%  best_ens=85.84%@2
+  ep  10  R(t)=0.924  a=85.51%  b=85.66%  ens=86.07%  best_ens=86.30%@6
+  ep  15  R(t)=0.924  a=85.25%  b=84.84%  ens=85.57%  best_ens=86.30%@6
+  ep  20  R(t)=0.924  a=84.88%  b=84.57%  ens=85.14%  best_ens=86.30%@6
+  ep  25  R(t)=0.924  a=84.66%  b=84.05%  ens=84.76%  best_ens=86.30%@6
+  ep  30  R(t)=0.924  a=84.76%  b=84.79%  ens=85.21%  best_ens=86.30%@6
+  ep  35  R(t)=0.924  a=85.01%  b=84.76%  ens=85.16%  best_ens=86.30%@6
+  ep  40  R(t)=0.924  a=84.53%  b=84.16%  ens=84.80%  best_ens=86.30%@6
+  ep  45  R(t)=0.924  a=84.84%  b=84.47%  ens=85.24%  best_ens=86.30%@6
+  ep  50  R(t)=0.924  a=85.08%  b=84.13%  ens=84.97%  best_ens=86.30%@6
+  ep  55  R(t)=0.924  a=84.89%  b=84.42%  ens=84.93%  best_ens=86.30%@6
+  ep  60  R(t)=0.924  a=84.82%  b=84.38%  ens=85.08%  best_ens=86.30%@6
+  ep  65  R(t)=0.924  a=84.99%  b=84.38%  ens=85.11%  best_ens=86.30%@6
+  ep  70  R(t)=0.924  a=84.89%  b=84.68%  ens=85.17%  best_ens=86.30%@6
+  ep  75  R(t)=0.924  a=84.76%  b=84.64%  ens=85.14%  best_ens=86.30%@6
+  ep  80  R(t)=0.924  a=84.96%  b=84.63%  ens=85.20%  best_ens=86.30%@6
+  ep  85  R(t)=0.924  a=84.70%  b=84.68%  ens=85.07%  best_ens=86.30%@6
+  ep  90  R(t)=0.924  a=84.76%  b=84.72%  ens=85.14%  best_ens=86.30%@6
+  ep  95  R(t)=0.924  a=84.75%  b=84.68%  ens=85.11%  best_ens=86.30%@6
+  ep  99  R(t)=0.924  a=84.76%  b=84.68%  ens=85.13%  best_ens=86.30%@6
+  DONE  best_ens=86.30%  saved front_truncation_sev3__C__coteaching__clean__seed0.json + persample.npz
+
+# exit=0

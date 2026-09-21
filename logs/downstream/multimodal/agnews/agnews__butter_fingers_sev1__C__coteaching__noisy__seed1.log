@@ -1,0 +1,27 @@
+# 2026-07-19T18:38:39.167814 | cmd = python /path/to/ciln-workspace/experiments/downstream_multimodal/train_agnews/train_agnews_coteaching.py --setting butter_fingers_sev1 --variant C --image-source noisy --seed 1 --gpu 1
+[AGN CoT] butter_fingers_sev1__C__coteaching__noisy__seed1  gpu=1
+  N=35066  tau=3.13%
+  ep   0  R(t)=1.000  a=84.37%  b=84.78%  ens=85.16%  best_ens=85.16%@0
+  ep   5  R(t)=0.978  a=86.74%  b=87.49%  ens=87.70%  best_ens=87.83%@4
+  ep  10  R(t)=0.969  a=87.59%  b=87.37%  ens=87.62%  best_ens=87.83%@4
+  ep  15  R(t)=0.969  a=86.92%  b=87.05%  ens=87.42%  best_ens=88.01%@12
+  ep  20  R(t)=0.969  a=87.47%  b=87.25%  ens=87.63%  best_ens=88.01%@12
+  ep  25  R(t)=0.969  a=86.88%  b=87.09%  ens=87.43%  best_ens=88.01%@12
+  ep  30  R(t)=0.969  a=87.26%  b=87.12%  ens=87.55%  best_ens=88.01%@12
+  ep  35  R(t)=0.969  a=87.18%  b=86.86%  ens=87.49%  best_ens=88.01%@12
+  ep  40  R(t)=0.969  a=87.07%  b=87.22%  ens=87.57%  best_ens=88.01%@12
+  ep  45  R(t)=0.969  a=87.20%  b=87.17%  ens=87.74%  best_ens=88.01%@12
+  ep  50  R(t)=0.969  a=87.39%  b=87.05%  ens=87.58%  best_ens=88.01%@12
+  ep  55  R(t)=0.969  a=87.33%  b=87.18%  ens=87.46%  best_ens=88.01%@12
+  ep  60  R(t)=0.969  a=86.93%  b=87.05%  ens=87.20%  best_ens=88.01%@12
+  ep  65  R(t)=0.969  a=86.93%  b=87.25%  ens=87.26%  best_ens=88.01%@12
+  ep  70  R(t)=0.969  a=86.96%  b=87.08%  ens=87.18%  best_ens=88.01%@12
+  ep  75  R(t)=0.969  a=86.99%  b=87.07%  ens=87.24%  best_ens=88.01%@12
+  ep  80  R(t)=0.969  a=87.05%  b=87.03%  ens=87.25%  best_ens=88.01%@12
+  ep  85  R(t)=0.969  a=86.91%  b=87.18%  ens=87.25%  best_ens=88.01%@12
+  ep  90  R(t)=0.969  a=87.05%  b=87.14%  ens=87.21%  best_ens=88.01%@12
+  ep  95  R(t)=0.969  a=87.00%  b=87.09%  ens=87.29%  best_ens=88.01%@12
+  ep  99  R(t)=0.969  a=87.03%  b=87.11%  ens=87.30%  best_ens=88.01%@12
+  DONE  best_ens=88.01%  saved butter_fingers_sev1__C__coteaching__noisy__seed1.json + persample.npz
+
+# exit=0

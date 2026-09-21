@@ -1,0 +1,11 @@
+[CoT] setting=missing_mnar_sev5  image_source=noisy  seed=1  gpu=2
+[load_adult] fetching from OpenML (id=1590)...
+[load_adult] dropped 3620 incomplete rows (7.4%); kept 45222
+[load_adult] train=30147  test=15075
+  loaded 13566 rows; realized noise rate tau = 0.2675
+  ep   0  fr=0.000  a=0.8135  b=0.8202  ens=0.8220  best_ens=0.8220@0
+  ep   5  fr=0.189  a=0.8143  b=0.8071  ens=0.8109  best_ens=0.8293@1
+  ep  10  fr=0.268  a=0.8070  b=0.7996  ens=0.8041  best_ens=0.8293@1
+  ep  15  fr=0.268  a=0.8047  b=0.7973  ens=0.8013  best_ens=0.8293@1
+  early stop at epoch 17
+  DONE  best_ens_test_acc=0.8293  saved /path/to/ciln-workspace/experiments/downstream_adult/results/missing_mnar_sev5__coteaching__noisy__seed1.json

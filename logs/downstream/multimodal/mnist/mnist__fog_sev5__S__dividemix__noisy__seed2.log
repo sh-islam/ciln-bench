@@ -1,0 +1,27 @@
+# 2026-07-16T19:40:17.105088 | cmd = python /path/to/ciln-workspace/experiments/downstream_multimodal/train_mnist/train_mnist_dividemix.py --setting fog_sev5 --variant S --image-source noisy --seed 2 --gpu 1
+[MNIST DM] fog_sev5__S__dividemix__noisy__seed2  gpu=1
+  N=27000  sampled_nr=39.26%
+  ep   0  a=76.24%  b=80.28%  ens=80.13%  best_ens=80.13%@0  [3.5s]
+  ep   5  a=90.60%  b=92.28%  ens=92.43%  best_ens=93.22%@3  [4.2s]
+  ep  10  a=96.16%  b=95.60%  ens=96.50%  best_ens=96.50%@10  [5.5s]
+  ep  15  a=96.91%  b=96.76%  ens=97.05%  best_ens=97.05%@15  [3.7s]
+  ep  20  a=97.03%  b=97.11%  ens=97.22%  best_ens=97.22%@20  [4.8s]
+  ep  25  a=97.12%  b=97.11%  ens=97.33%  best_ens=97.45%@21  [3.8s]
+  ep  30  a=97.35%  b=96.97%  ens=97.51%  best_ens=97.51%@30  [4.8s]
+  ep  35  a=97.39%  b=97.29%  ens=97.56%  best_ens=97.56%@33  [3.6s]
+  ep  40  a=97.40%  b=97.27%  ens=97.49%  best_ens=97.56%@33  [3.6s]
+  ep  45  a=97.08%  b=97.16%  ens=97.48%  best_ens=97.60%@43  [3.8s]
+  ep  50  a=97.15%  b=97.30%  ens=97.49%  best_ens=97.60%@43  [4.8s]
+  ep  55  a=97.25%  b=97.23%  ens=97.48%  best_ens=97.60%@43  [3.6s]
+  ep  60  a=97.23%  b=97.25%  ens=97.60%  best_ens=97.60%@43  [3.6s]
+  ep  65  a=97.28%  b=97.30%  ens=97.63%  best_ens=97.64%@63  [3.7s]
+  ep  70  a=97.28%  b=97.37%  ens=97.54%  best_ens=97.64%@63  [3.7s]
+  ep  75  a=97.38%  b=97.25%  ens=97.54%  best_ens=97.64%@63  [4.8s]
+  ep  80  a=97.26%  b=97.24%  ens=97.63%  best_ens=97.64%@63  [3.6s]
+  ep  85  a=97.33%  b=97.36%  ens=97.57%  best_ens=97.64%@63  [3.6s]
+  ep  90  a=97.35%  b=97.29%  ens=97.59%  best_ens=97.64%@63  [3.5s]
+  ep  95  a=97.34%  b=97.25%  ens=97.57%  best_ens=97.64%@63  [5.7s]
+  ep  99  a=97.34%  b=97.25%  ens=97.57%  best_ens=97.64%@63  [4.7s]
+  DONE  best_ens=97.64%  saved fog_sev5__S__dividemix__noisy__seed2.json + persample.npz
+
+# exit=0

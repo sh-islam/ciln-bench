@@ -1,0 +1,27 @@
+# 2026-07-16T20:05:16.749878 | cmd = python /path/to/ciln-workspace/experiments/downstream_multimodal/train_mnist/train_mnist_coteaching.py --setting fog_sev5 --variant C --image-source noisy --seed 2 --gpu 1
+[MNIST CoT] fog_sev5__C__coteaching__noisy__seed2  gpu=1
+  N=26107  tau=38.30%
+  ep   0  R(t)=1.000  a=78.28%  b=75.81%  ens=78.10%  best_ens=78.10%@0
+  ep   5  R(t)=0.729  a=93.92%  b=93.89%  ens=94.14%  best_ens=94.14%@5
+  ep  10  R(t)=0.617  a=93.33%  b=92.91%  ens=93.45%  best_ens=94.78%@9
+  ep  15  R(t)=0.617  a=95.47%  b=95.17%  ens=95.41%  best_ens=96.17%@12
+  ep  20  R(t)=0.617  a=95.25%  b=95.48%  ens=95.38%  best_ens=96.17%@12
+  ep  25  R(t)=0.617  a=95.47%  b=95.35%  ens=95.80%  best_ens=96.17%@12
+  ep  30  R(t)=0.617  a=95.44%  b=95.61%  ens=95.78%  best_ens=96.33%@28
+  ep  35  R(t)=0.617  a=95.38%  b=95.60%  ens=95.63%  best_ens=96.33%@28
+  ep  40  R(t)=0.617  a=95.58%  b=95.76%  ens=95.95%  best_ens=96.33%@28
+  ep  45  R(t)=0.617  a=93.94%  b=94.24%  ens=94.44%  best_ens=96.33%@28
+  ep  50  R(t)=0.617  a=94.30%  b=94.27%  ens=94.47%  best_ens=96.33%@28
+  ep  55  R(t)=0.617  a=95.03%  b=94.83%  ens=95.18%  best_ens=96.33%@28
+  ep  60  R(t)=0.617  a=95.11%  b=95.05%  ens=95.11%  best_ens=96.33%@28
+  ep  65  R(t)=0.617  a=94.42%  b=94.32%  ens=94.73%  best_ens=96.33%@28
+  ep  70  R(t)=0.617  a=94.37%  b=94.31%  ens=94.55%  best_ens=96.33%@28
+  ep  75  R(t)=0.617  a=94.24%  b=94.41%  ens=94.63%  best_ens=96.33%@28
+  ep  80  R(t)=0.617  a=94.26%  b=94.24%  ens=94.51%  best_ens=96.33%@28
+  ep  85  R(t)=0.617  a=94.35%  b=94.20%  ens=94.48%  best_ens=96.33%@28
+  ep  90  R(t)=0.617  a=94.20%  b=94.28%  ens=94.52%  best_ens=96.33%@28
+  ep  95  R(t)=0.617  a=94.14%  b=94.31%  ens=94.34%  best_ens=96.33%@28
+  ep  99  R(t)=0.617  a=94.03%  b=94.22%  ens=94.27%  best_ens=96.33%@28
+  DONE  best_ens=96.33%  saved fog_sev5__C__coteaching__noisy__seed2.json + persample.npz
+
+# exit=0

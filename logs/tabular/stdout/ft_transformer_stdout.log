@@ -1,0 +1,43 @@
+[load_adult] fetching from OpenML (id=1590)...
+[load_adult] dropped 3620 incomplete rows (7.4%); kept 45222
+[load_adult] train=30147  test=15075
+/path/to/ciln-workspace/journal_edition/tabular/train/train_ft_transformer.py:150: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at ../torch/csrc/utils/tensor_numpy.cpp:206.)
+  ds = TensorDataset(torch.from_numpy(Xn), torch.from_numpy(Xc), torch.from_numpy(y).long())
+[ft/adult] ep 1  tr_loss=0.3727 tr_acc=0.8246  val_loss=0.3220 val_acc=0.8494
+[ft/adult] ep 2  tr_loss=0.3419 tr_acc=0.8374  val_loss=0.3176 val_acc=0.8534
+[ft/adult] ep 3  tr_loss=0.3354 tr_acc=0.8436  val_loss=0.3205 val_acc=0.8494
+[ft/adult] ep 4  tr_loss=0.3324 tr_acc=0.8435  val_loss=0.3137 val_acc=0.8567
+[ft/adult] ep 5  tr_loss=0.3281 tr_acc=0.8478  val_loss=0.3180 val_acc=0.8537
+[ft/adult] ep 6  tr_loss=0.3235 tr_acc=0.8486  val_loss=0.3122 val_acc=0.8590
+[ft/adult] ep 7  tr_loss=0.3198 tr_acc=0.8510  val_loss=0.3093 val_acc=0.8551
+[ft/adult] ep 8  tr_loss=0.3147 tr_acc=0.8529  val_loss=0.3076 val_acc=0.8577
+[ft/adult] ep 9  tr_loss=0.3140 tr_acc=0.8526  val_loss=0.3100 val_acc=0.8551
+[ft/adult] ep 10  tr_loss=0.3093 tr_acc=0.8550  val_loss=0.3084 val_acc=0.8590
+[ft/adult] ep 11  tr_loss=0.3064 tr_acc=0.8573  val_loss=0.3066 val_acc=0.8614
+[ft/adult] ep 12  tr_loss=0.3071 tr_acc=0.8585  val_loss=0.3103 val_acc=0.8557
+[ft/adult] ep 13  tr_loss=0.3043 tr_acc=0.8577  val_loss=0.3072 val_acc=0.8557
+[ft/adult] ep 14  tr_loss=0.3005 tr_acc=0.8584  val_loss=0.3093 val_acc=0.8620
+[ft/adult] ep 15  tr_loss=0.3030 tr_acc=0.8580  val_loss=0.3147 val_acc=0.8590
+[ft/adult] ep 16  tr_loss=0.3013 tr_acc=0.8604  val_loss=0.3115 val_acc=0.8547
+[ft/adult] ep 17  tr_loss=0.2985 tr_acc=0.8611  val_loss=0.3093 val_acc=0.8567
+[ft/adult] ep 18  tr_loss=0.2980 tr_acc=0.8617  val_loss=0.3090 val_acc=0.8561
+[ft/adult] ep 19  tr_loss=0.2958 tr_acc=0.8617  val_loss=0.3124 val_acc=0.8531
+[ft/adult] ep 20  tr_loss=0.2948 tr_acc=0.8630  val_loss=0.3114 val_acc=0.8577
+[ft/adult] ep 21  tr_loss=0.2936 tr_acc=0.8641  val_loss=0.3182 val_acc=0.8557
+[ft/adult] ep 22  tr_loss=0.2937 tr_acc=0.8601  val_loss=0.3138 val_acc=0.8504
+[ft/adult] ep 23  tr_loss=0.2899 tr_acc=0.8637  val_loss=0.3142 val_acc=0.8600
+[ft/adult] ep 24  tr_loss=0.2898 tr_acc=0.8647  val_loss=0.3143 val_acc=0.8574
+[ft/adult] ep 25  tr_loss=0.2878 tr_acc=0.8656  val_loss=0.3167 val_acc=0.8561
+[ft/adult] ep 26  tr_loss=0.2867 tr_acc=0.8660  val_loss=0.3235 val_acc=0.8544
+[ft/adult] ep 27  tr_loss=0.2864 tr_acc=0.8654  val_loss=0.3161 val_acc=0.8531
+[ft/adult] ep 28  tr_loss=0.2828 tr_acc=0.8682  val_loss=0.3213 val_acc=0.8488
+[ft/adult] ep 29  tr_loss=0.2836 tr_acc=0.8677  val_loss=0.3225 val_acc=0.8511
+[ft/adult] ep 30  tr_loss=0.2807 tr_acc=0.8700  val_loss=0.3256 val_acc=0.8554
+[ft/adult] early stop ep 30 (best ep 14)
+
+=== DONE [ft_transformer/adult] ===
+  best val acc:  0.8620 at iter/ep 14
+  test acc:      0.8477
+  train acc:     0.8640
+  total time:    0.9 min
+[save] /path/to/ciln-workspace/journal_edition/tabular/reports/ft_transformer_adult.json

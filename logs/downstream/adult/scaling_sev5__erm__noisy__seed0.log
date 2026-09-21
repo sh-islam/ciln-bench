@@ -1,0 +1,16 @@
+[ERM] setting=scaling_sev5  image_source=noisy  seed=0  gpu=1
+[load_adult] fetching from OpenML (id=1590)...
+[load_adult] dropped 3620 incomplete rows (7.4%); kept 45222
+[load_adult] train=30147  test=15075
+  loaded 13566 training rows, label diversity = 2
+  ep   0  train_loss=0.4148  test_acc=0.8350  best=0.8350@0
+  ep   5  train_loss=0.2971  test_acc=0.8396  best=0.8403@3
+  ep  10  train_loss=0.2840  test_acc=0.8405  best=0.8415@6
+  ep  15  train_loss=0.2768  test_acc=0.8419  best=0.8419@15
+  ep  20  train_loss=0.2674  test_acc=0.8409  best=0.8421@17
+  ep  25  train_loss=0.2565  test_acc=0.8434  best=0.8437@24
+  ep  30  train_loss=0.2543  test_acc=0.8433  best=0.8442@28
+  ep  35  train_loss=0.2459  test_acc=0.8424  best=0.8442@28
+  ep  40  train_loss=0.2406  test_acc=0.8415  best=0.8442@28
+  early stop at epoch 44 (no improvement for 16 epochs)
+  DONE  best_test_acc=0.8442  saved /path/to/ciln-workspace/experiments/downstream_adult/results/scaling_sev5__erm__noisy__seed0.json

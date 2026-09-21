@@ -1,0 +1,27 @@
+# 2026-07-16T17:00:49.643113 | cmd = python /path/to/ciln-workspace/experiments/downstream_multimodal/train_mnist/train_mnist_coteaching.py --setting glass_blur_sev5 --variant C --image-source clean --seed 1 --gpu 1
+[MNIST CoT] glass_blur_sev5__C__coteaching__clean__seed1  gpu=1
+  N=26107  tau=71.20%
+  ep   0  R(t)=1.000  a=36.41%  b=36.25%  ens=36.16%  best_ens=36.16%@0
+  ep   5  R(t)=0.497  a=32.75%  b=32.73%  ens=32.71%  best_ens=36.16%@0
+  ep  10  R(t)=0.288  a=32.30%  b=32.58%  ens=32.49%  best_ens=36.86%@6
+  ep  15  R(t)=0.288  a=33.52%  b=35.30%  ens=34.44%  best_ens=36.86%@6
+  ep  20  R(t)=0.288  a=27.48%  b=28.01%  ens=27.81%  best_ens=36.86%@6
+  ep  25  R(t)=0.288  a=25.72%  b=25.36%  ens=25.55%  best_ens=36.86%@6
+  ep  30  R(t)=0.288  a=28.62%  b=28.60%  ens=28.64%  best_ens=36.86%@6
+  ep  35  R(t)=0.288  a=17.68%  b=16.68%  ens=17.08%  best_ens=36.86%@6
+  ep  40  R(t)=0.288  a=27.85%  b=26.65%  ens=27.25%  best_ens=36.86%@6
+  ep  45  R(t)=0.288  a=28.63%  b=27.89%  ens=28.22%  best_ens=36.86%@6
+  ep  50  R(t)=0.288  a=28.57%  b=28.79%  ens=28.70%  best_ens=36.86%@6
+  ep  55  R(t)=0.288  a=27.68%  b=27.60%  ens=27.73%  best_ens=36.86%@6
+  ep  60  R(t)=0.288  a=28.07%  b=27.57%  ens=27.86%  best_ens=36.86%@6
+  ep  65  R(t)=0.288  a=28.05%  b=28.00%  ens=28.04%  best_ens=36.86%@6
+  ep  70  R(t)=0.288  a=27.41%  b=27.81%  ens=27.62%  best_ens=36.86%@6
+  ep  75  R(t)=0.288  a=28.62%  b=28.63%  ens=28.62%  best_ens=36.86%@6
+  ep  80  R(t)=0.288  a=27.40%  b=27.20%  ens=27.26%  best_ens=36.86%@6
+  ep  85  R(t)=0.288  a=28.14%  b=27.41%  ens=27.82%  best_ens=36.86%@6
+  ep  90  R(t)=0.288  a=28.75%  b=28.44%  ens=28.63%  best_ens=36.86%@6
+  ep  95  R(t)=0.288  a=28.56%  b=28.55%  ens=28.56%  best_ens=36.86%@6
+  ep  99  R(t)=0.288  a=28.57%  b=28.61%  ens=28.60%  best_ens=36.86%@6
+  DONE  best_ens=36.86%  saved glass_blur_sev5__C__coteaching__clean__seed1.json + persample.npz
+
+# exit=0

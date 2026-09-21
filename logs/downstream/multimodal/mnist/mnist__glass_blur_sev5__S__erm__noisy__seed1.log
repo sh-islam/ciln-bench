@@ -1,0 +1,27 @@
+# 2026-07-16T16:12:58.769209 | cmd = python /path/to/ciln-workspace/experiments/downstream_multimodal/train_mnist/train_mnist_erm.py --setting glass_blur_sev5 --variant S --image-source noisy --seed 1 --gpu 2
+[MNIST ERM] glass_blur_sev5__S__erm__noisy__seed1  gpu=2
+  N=27000  sampled_nr=71.30%  expected_nr=71.54%
+  ep   0  train_loss=1.7362  test_acc=40.27%  best=40.27%@0
+  ep   5  train_loss=1.4216  test_acc=53.64%  best=53.64%@5
+  ep  10  train_loss=1.3788  test_acc=50.10%  best=57.45%@8
+  ep  15  train_loss=1.3524  test_acc=51.05%  best=57.45%@8
+  ep  20  train_loss=1.3315  test_acc=48.25%  best=57.45%@8
+  ep  25  train_loss=1.3105  test_acc=47.78%  best=57.45%@8
+  ep  30  train_loss=1.2926  test_acc=39.72%  best=57.45%@8
+  ep  35  train_loss=1.2737  test_acc=39.89%  best=57.45%@8
+  ep  40  train_loss=1.2591  test_acc=43.28%  best=57.45%@8
+  ep  45  train_loss=1.2441  test_acc=44.01%  best=57.45%@8
+  ep  50  train_loss=1.2269  test_acc=36.49%  best=57.45%@8
+  ep  55  train_loss=1.2095  test_acc=36.21%  best=57.45%@8
+  ep  60  train_loss=1.1927  test_acc=36.42%  best=57.45%@8
+  ep  65  train_loss=1.1798  test_acc=37.22%  best=57.45%@8
+  ep  70  train_loss=1.1647  test_acc=38.55%  best=57.45%@8
+  ep  75  train_loss=1.1521  test_acc=36.13%  best=57.45%@8
+  ep  80  train_loss=1.1429  test_acc=35.19%  best=57.45%@8
+  ep  85  train_loss=1.1340  test_acc=36.11%  best=57.45%@8
+  ep  90  train_loss=1.1293  test_acc=35.89%  best=57.45%@8
+  ep  95  train_loss=1.1262  test_acc=35.97%  best=57.45%@8
+  ep  99  train_loss=1.1252  test_acc=35.88%  best=57.45%@8
+  DONE  best=57.45%  saved glass_blur_sev5__S__erm__noisy__seed1.json + persample.npz
+
+# exit=0

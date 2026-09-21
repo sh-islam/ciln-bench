@@ -1,0 +1,14 @@
+# 2026-07-15T23:39:56.574791 | cmd = python /path/to/ciln-workspace/experiments/downstream_adult/train/train_adult_coteaching_v2.py --setting scaling_sev3 --variant S --image-source noisy --seed 0 --gpu 2
+[CoT] scaling_sev3__S__coteaching__noisy__seed0  gpu=2
+[load_adult] fetching from OpenML (id=1590)...
+[load_adult] dropped 3620 incomplete rows (7.4%); kept 45222
+[load_adult] train=30147  test=15075
+  N=13566  sampled_nr=20.56%  expected_nr=20.48%
+  ep   0  fr=0.000  a=0.8358  b=0.8366  ens=0.8365  best_ens=0.8365@0
+  ep   5  fr=0.145  a=0.8371  b=0.8367  ens=0.8377  best_ens=0.8399@2
+  ep  10  fr=0.206  a=0.8364  b=0.8367  ens=0.8369  best_ens=0.8399@2
+  ep  15  fr=0.206  a=0.8340  b=0.8340  ens=0.8336  best_ens=0.8399@2
+  early stop at ep 18
+  DONE  best_ens=0.8399  saved scaling_sev3__S__coteaching__noisy__seed0.json + persample.npz
+
+# exit=0

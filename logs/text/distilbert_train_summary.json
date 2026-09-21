@@ -1,0 +1,9 @@
+{
+  "voter": "distilbert",
+  "hf": "distilbert-base-cased",
+  "epochs": 2,
+  "lr": 2e-05,
+  "bs": 32,
+  "final_test_acc": 0.9342105263157895,
+  "elapsed_sec": 345.22896552085876
+}

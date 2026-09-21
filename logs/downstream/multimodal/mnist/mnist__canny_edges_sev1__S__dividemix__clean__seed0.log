@@ -1,0 +1,27 @@
+# 2026-07-16T20:50:24.089394 | cmd = python /path/to/ciln-workspace/experiments/downstream_multimodal/train_mnist/train_mnist_dividemix.py --setting canny_edges_sev1 --variant S --image-source clean --seed 0 --gpu 2
+[MNIST DM] canny_edges_sev1__S__dividemix__clean__seed0  gpu=2
+  N=27000  sampled_nr=32.04%
+  ep   0  a=79.18%  b=84.46%  ens=83.10%  best_ens=83.10%@0  [3.6s]
+  ep   5  a=84.08%  b=81.67%  ens=84.28%  best_ens=85.59%@3  [4.1s]
+  ep  10  a=78.21%  b=80.47%  ens=79.73%  best_ens=85.59%@3  [6.0s]
+  ep  15  a=74.95%  b=76.09%  ens=75.57%  best_ens=85.59%@3  [3.9s]
+  ep  20  a=74.59%  b=75.21%  ens=75.13%  best_ens=85.59%@3  [4.9s]
+  ep  25  a=74.31%  b=74.62%  ens=74.62%  best_ens=85.59%@3  [3.7s]
+  ep  30  a=73.34%  b=73.75%  ens=73.62%  best_ens=85.59%@3  [5.3s]
+  ep  35  a=71.89%  b=71.78%  ens=72.05%  best_ens=85.59%@3  [3.8s]
+  ep  40  a=72.02%  b=71.80%  ens=72.06%  best_ens=85.59%@3  [3.8s]
+  ep  45  a=71.24%  b=71.43%  ens=71.50%  best_ens=85.59%@3  [3.6s]
+  ep  50  a=71.08%  b=70.63%  ens=71.09%  best_ens=85.59%@3  [5.3s]
+  ep  55  a=69.56%  b=69.73%  ens=69.75%  best_ens=85.59%@3  [3.8s]
+  ep  60  a=68.44%  b=68.11%  ens=68.43%  best_ens=85.59%@3  [3.7s]
+  ep  65  a=66.31%  b=66.15%  ens=66.47%  best_ens=85.59%@3  [3.6s]
+  ep  70  a=64.61%  b=64.66%  ens=64.76%  best_ens=85.59%@3  [3.6s]
+  ep  75  a=63.88%  b=63.80%  ens=63.94%  best_ens=85.59%@3  [5.0s]
+  ep  80  a=63.81%  b=63.48%  ens=63.73%  best_ens=85.59%@3  [3.5s]
+  ep  85  a=63.41%  b=63.39%  ens=63.52%  best_ens=85.59%@3  [3.6s]
+  ep  90  a=63.41%  b=63.05%  ens=63.39%  best_ens=85.59%@3  [3.6s]
+  ep  95  a=63.36%  b=63.09%  ens=63.32%  best_ens=85.59%@3  [3.5s]
+  ep  99  a=63.35%  b=63.06%  ens=63.30%  best_ens=85.59%@3  [4.9s]
+  DONE  best_ens=85.59%  saved canny_edges_sev1__S__dividemix__clean__seed0.json + persample.npz
+
+# exit=0

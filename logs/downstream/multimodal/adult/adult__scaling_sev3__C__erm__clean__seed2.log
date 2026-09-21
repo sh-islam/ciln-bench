@@ -1,0 +1,19 @@
+# 2026-07-15T23:45:50.400897 | cmd = python /path/to/ciln-workspace/experiments/downstream_adult/train/train_adult_erm_v2.py --setting scaling_sev3 --variant C --image-source clean --seed 2 --gpu 2
+[ERM] scaling_sev3__C__erm__clean__seed2  gpu=2
+[load_adult] fetching from OpenML (id=1590)...
+[load_adult] dropped 3620 incomplete rows (7.4%); kept 45222
+[load_adult] train=30147  test=15075
+  N=10629  sampled_nr=8.99%  expected_nr=8.59%
+[load_adult] fetching from OpenML (id=1590)...
+[load_adult] dropped 3620 incomplete rows (7.4%); kept 45222
+[load_adult] train=30147  test=15075
+  ep   0  train_loss=0.5721  test_acc=0.7522  best=0.7522@0
+  ep   5  train_loss=0.5401  test_acc=0.7522  best=0.7522@0
+  ep  10  train_loss=0.5342  test_acc=0.7520  best=0.7522@8
+  ep  15  train_loss=0.5258  test_acc=0.7512  best=0.7523@13
+  ep  20  train_loss=0.5186  test_acc=0.7506  best=0.7523@13
+  ep  25  train_loss=0.5091  test_acc=0.7457  best=0.7523@13
+  early stop at ep 29
+  DONE  best=0.7523  saved scaling_sev3__C__erm__clean__seed2.json + persample.npz
+
+# exit=0

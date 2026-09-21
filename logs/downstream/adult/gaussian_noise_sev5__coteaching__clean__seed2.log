@@ -1,0 +1,17 @@
+[CoT] setting=gaussian_noise_sev5  image_source=clean  seed=2  gpu=2
+[load_adult] fetching from OpenML (id=1590)...
+[load_adult] dropped 3620 incomplete rows (7.4%); kept 45222
+[load_adult] train=30147  test=15075
+[load_adult] fetching from OpenML (id=1590)...
+[load_adult] dropped 3620 incomplete rows (7.4%); kept 45222
+[load_adult] train=30147  test=15075
+  loaded 13566 rows; realized noise rate tau = 0.1635
+  ep   0  fr=0.000  a=0.7522  b=0.7522  ens=0.7522  best_ens=0.7522@0
+  ep   5  fr=0.116  a=0.7522  b=0.7522  ens=0.7522  best_ens=0.7523@4
+  ep  10  fr=0.163  a=0.7558  b=0.7539  ens=0.7551  best_ens=0.7551@10
+  ep  15  fr=0.163  a=0.7546  b=0.7579  ens=0.7569  best_ens=0.7569@15
+  ep  20  fr=0.163  a=0.7552  b=0.7584  ens=0.7566  best_ens=0.7569@15
+  ep  25  fr=0.163  a=0.7510  b=0.7526  ens=0.7521  best_ens=0.7569@15
+  ep  30  fr=0.163  a=0.7511  b=0.7498  ens=0.7510  best_ens=0.7569@15
+  early stop at epoch 31
+  DONE  best_ens_test_acc=0.7569  saved /path/to/ciln-workspace/experiments/downstream_adult/results/gaussian_noise_sev5__coteaching__clean__seed2.json

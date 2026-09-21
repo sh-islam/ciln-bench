@@ -1,0 +1,14 @@
+[ERM] setting=missing_mnar_sev5  image_source=clean  seed=2  gpu=1
+[load_adult] fetching from OpenML (id=1590)...
+[load_adult] dropped 3620 incomplete rows (7.4%); kept 45222
+[load_adult] train=30147  test=15075
+[load_adult] fetching from OpenML (id=1590)...
+[load_adult] dropped 3620 incomplete rows (7.4%); kept 45222
+[load_adult] train=30147  test=15075
+  loaded 13566 training rows, label diversity = 2
+  ep   0  train_loss=0.4082  test_acc=0.7522  best=0.7522@0
+  ep   5  train_loss=0.3732  test_acc=0.7522  best=0.7522@0
+  ep  10  train_loss=0.3704  test_acc=0.7522  best=0.7522@0
+  ep  15  train_loss=0.3653  test_acc=0.7520  best=0.7522@0
+  early stop at epoch 16 (no improvement for 16 epochs)
+  DONE  best_test_acc=0.7522  saved /path/to/ciln-workspace/experiments/downstream_adult/results/missing_mnar_sev5__erm__clean__seed2.json

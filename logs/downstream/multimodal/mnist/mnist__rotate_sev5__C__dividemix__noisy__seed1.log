@@ -1,0 +1,27 @@
+# 2026-07-16T18:56:10.390381 | cmd = python /path/to/ciln-workspace/experiments/downstream_multimodal/train_mnist/train_mnist_dividemix.py --setting rotate_sev5 --variant C --image-source noisy --seed 1 --gpu 2
+[MNIST DM] rotate_sev5__C__dividemix__noisy__seed1  gpu=2
+  N=26107  sampled_nr=63.70%
+  ep   0  a=71.90%  b=71.47%  ens=72.52%  best_ens=72.52%@0  [3.5s]
+  ep   5  a=93.17%  b=92.76%  ens=94.18%  best_ens=94.18%@5  [3.9s]
+  ep  10  a=77.08%  b=64.98%  ens=74.41%  best_ens=95.14%@9  [5.3s]
+  ep  15  a=40.62%  b=38.22%  ens=40.17%  best_ens=95.14%@9  [3.4s]
+  ep  20  a=33.29%  b=32.79%  ens=33.18%  best_ens=95.14%@9  [4.5s]
+  ep  25  a=30.45%  b=31.23%  ens=31.37%  best_ens=95.14%@9  [3.2s]
+  ep  30  a=31.46%  b=30.98%  ens=31.87%  best_ens=95.14%@9  [4.5s]
+  ep  35  a=29.62%  b=29.05%  ens=29.99%  best_ens=95.14%@9  [3.4s]
+  ep  40  a=30.45%  b=29.96%  ens=30.76%  best_ens=95.14%@9  [3.1s]
+  ep  45  a=31.42%  b=31.00%  ens=31.33%  best_ens=95.14%@9  [3.8s]
+  ep  50  a=28.82%  b=29.60%  ens=29.67%  best_ens=95.14%@9  [4.2s]
+  ep  55  a=29.46%  b=29.63%  ens=29.85%  best_ens=95.14%@9  [3.2s]
+  ep  60  a=29.84%  b=29.78%  ens=30.27%  best_ens=95.14%@9  [3.2s]
+  ep  65  a=29.70%  b=29.23%  ens=29.87%  best_ens=95.14%@9  [3.3s]
+  ep  70  a=29.10%  b=29.44%  ens=29.74%  best_ens=95.14%@9  [3.1s]
+  ep  75  a=29.25%  b=29.07%  ens=29.55%  best_ens=95.14%@9  [4.4s]
+  ep  80  a=29.51%  b=29.24%  ens=29.54%  best_ens=95.14%@9  [3.2s]
+  ep  85  a=29.56%  b=29.59%  ens=29.72%  best_ens=95.14%@9  [3.1s]
+  ep  90  a=29.57%  b=29.37%  ens=29.58%  best_ens=95.14%@9  [3.2s]
+  ep  95  a=29.49%  b=29.35%  ens=29.62%  best_ens=95.14%@9  [3.1s]
+  ep  99  a=29.45%  b=29.38%  ens=29.62%  best_ens=95.14%@9  [4.5s]
+  DONE  best_ens=95.14%  saved rotate_sev5__C__dividemix__noisy__seed1.json + persample.npz
+
+# exit=0

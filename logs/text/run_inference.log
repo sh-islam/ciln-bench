@@ -1,0 +1,19 @@
+[infer] loading voters...
+Warning : `load_model` does not return WordVectorModel or SupervisedModel any more, but a `FastText` object which is very similar.
+Loading weights:   0%|          | 0/104 [00:00<?, ?it/s]Loading weights: 100%|██████████| 104/104 [00:00<00:00, 3801.01it/s]
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights:  58%|█████▊    | 116/201 [00:00<00:00, 1149.01it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 1557.11it/s]
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 3632.07it/s]
+[infer] 6 settings found
+  [butter_fingers_sev1] N=50000
+    saved 4 softmaxes (171.4s)
+  [butter_fingers_sev3] N=50000
+    saved 4 softmaxes (180.0s)
+  [butter_fingers_sev5] N=50000
+    saved 4 softmaxes (184.0s)
+  [front_truncation_sev1] N=50000
+    saved 4 softmaxes (145.6s)
+  [front_truncation_sev3] N=50000
+    saved 4 softmaxes (101.9s)
+  [front_truncation_sev5] N=50000
+    saved 4 softmaxes (68.2s)
+[infer] DONE

@@ -1,0 +1,19 @@
+# 2026-07-16T00:48:37.845528 | cmd = python /path/to/ciln-workspace/experiments/downstream_adult/train/train_adult_erm_v2.py --setting missing_mcar_sev3 --variant S --image-source noisy --seed 1 --gpu 1
+[ERM] missing_mcar_sev3__S__erm__noisy__seed1  gpu=1
+[load_adult] fetching from OpenML (id=1590)...
+[load_adult] dropped 3620 incomplete rows (7.4%); kept 45222
+[load_adult] train=30147  test=15075
+  N=13566  sampled_nr=19.42%  expected_nr=19.68%
+  ep   0  train_loss=0.3279  test_acc=0.8374  best=0.8374@0
+  ep   5  train_loss=0.2202  test_acc=0.8415  best=0.8423@4
+  ep  10  train_loss=0.2062  test_acc=0.8444  best=0.8444@9
+  ep  15  train_loss=0.1994  test_acc=0.8454  best=0.8458@14
+  ep  20  train_loss=0.1931  test_acc=0.8483  best=0.8483@20
+  ep  25  train_loss=0.1883  test_acc=0.8472  best=0.8494@24
+  ep  30  train_loss=0.1861  test_acc=0.8480  best=0.8494@24
+  ep  35  train_loss=0.1804  test_acc=0.8464  best=0.8494@24
+  ep  40  train_loss=0.1776  test_acc=0.8466  best=0.8494@24
+  early stop at ep 40
+  DONE  best=0.8494  saved missing_mcar_sev3__S__erm__noisy__seed1.json + persample.npz
+
+# exit=0

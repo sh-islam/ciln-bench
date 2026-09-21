@@ -1,0 +1,21 @@
+# 2026-07-15T23:04:53.333386 | cmd = python /path/to/ciln-workspace/experiments/downstream_adult/train/train_adult_coteaching_v2.py --setting gaussian_noise_sev5 --variant C --image-source noisy --seed 1 --gpu 1
+[CoT] gaussian_noise_sev5__C__coteaching__noisy__seed1  gpu=1
+[load_adult] fetching from OpenML (id=1590)...
+[load_adult] dropped 3620 incomplete rows (7.4%); kept 45222
+[load_adult] train=30147  test=15075
+  N=10629  sampled_nr=3.01%  expected_nr=3.00%
+  ep   0  fr=0.000  a=0.8286  b=0.8300  ens=0.8294  best_ens=0.8294@0
+  ep   5  fr=0.021  a=0.8375  b=0.8397  ens=0.8379  best_ens=0.8387@4
+  ep  10  fr=0.030  a=0.8402  b=0.8397  ens=0.8397  best_ens=0.8415@8
+  ep  15  fr=0.030  a=0.8409  b=0.8434  ens=0.8421  best_ens=0.8435@13
+  ep  20  fr=0.030  a=0.8414  b=0.8429  ens=0.8415  best_ens=0.8444@18
+  ep  25  fr=0.030  a=0.8434  b=0.8432  ens=0.8434  best_ens=0.8450@22
+  ep  30  fr=0.030  a=0.8445  b=0.8421  ens=0.8434  best_ens=0.8450@22
+  ep  35  fr=0.030  a=0.8458  b=0.8472  ens=0.8468  best_ens=0.8468@35
+  ep  40  fr=0.030  a=0.8455  b=0.8448  ens=0.8454  best_ens=0.8468@35
+  ep  45  fr=0.030  a=0.8454  b=0.8444  ens=0.8450  best_ens=0.8468@35
+  ep  50  fr=0.030  a=0.8429  b=0.8401  ens=0.8413  best_ens=0.8468@35
+  early stop at ep 51
+  DONE  best_ens=0.8468  saved gaussian_noise_sev5__C__coteaching__noisy__seed1.json + persample.npz
+
+# exit=0

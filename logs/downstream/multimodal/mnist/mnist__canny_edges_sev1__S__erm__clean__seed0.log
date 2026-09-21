@@ -1,0 +1,27 @@
+# 2026-07-16T20:27:38.206429 | cmd = python /path/to/ciln-workspace/experiments/downstream_multimodal/train_mnist/train_mnist_erm.py --setting canny_edges_sev1 --variant S --image-source clean --seed 0 --gpu 2
+[MNIST ERM] canny_edges_sev1__S__erm__clean__seed0  gpu=2
+  N=27000  sampled_nr=32.04%  expected_nr=32.07%
+  ep   0  train_loss=1.1009  test_acc=69.82%  best=69.82%@0
+  ep   5  train_loss=0.6691  test_acc=84.17%  best=84.17%@5
+  ep  10  train_loss=0.6328  test_acc=81.56%  best=84.87%@8
+  ep  15  train_loss=0.6009  test_acc=81.68%  best=84.87%@8
+  ep  20  train_loss=0.5676  test_acc=81.68%  best=84.87%@8
+  ep  25  train_loss=0.5235  test_acc=75.38%  best=84.87%@8
+  ep  30  train_loss=0.4780  test_acc=73.27%  best=84.87%@8
+  ep  35  train_loss=0.4340  test_acc=74.55%  best=84.87%@8
+  ep  40  train_loss=0.3787  test_acc=75.15%  best=84.87%@8
+  ep  45  train_loss=0.3320  test_acc=76.03%  best=84.87%@8
+  ep  50  train_loss=0.2856  test_acc=71.06%  best=84.87%@8
+  ep  55  train_loss=0.2475  test_acc=70.72%  best=84.87%@8
+  ep  60  train_loss=0.2082  test_acc=72.60%  best=84.87%@8
+  ep  65  train_loss=0.1823  test_acc=69.47%  best=84.87%@8
+  ep  70  train_loss=0.1556  test_acc=71.90%  best=84.87%@8
+  ep  75  train_loss=0.1396  test_acc=67.06%  best=84.87%@8
+  ep  80  train_loss=0.1265  test_acc=70.34%  best=84.87%@8
+  ep  85  train_loss=0.1177  test_acc=69.39%  best=84.87%@8
+  ep  90  train_loss=0.1120  test_acc=69.34%  best=84.87%@8
+  ep  95  train_loss=0.1091  test_acc=69.36%  best=84.87%@8
+  ep  99  train_loss=0.1081  test_acc=69.37%  best=84.87%@8
+  DONE  best=84.87%  saved canny_edges_sev1__S__erm__clean__seed0.json + persample.npz
+
+# exit=0

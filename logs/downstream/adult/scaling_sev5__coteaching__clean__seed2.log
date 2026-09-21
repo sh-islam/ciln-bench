@@ -1,0 +1,20 @@
+[CoT] setting=scaling_sev5  image_source=clean  seed=2  gpu=2
+[load_adult] fetching from OpenML (id=1590)...
+[load_adult] dropped 3620 incomplete rows (7.4%); kept 45222
+[load_adult] train=30147  test=15075
+[load_adult] fetching from OpenML (id=1590)...
+[load_adult] dropped 3620 incomplete rows (7.4%); kept 45222
+[load_adult] train=30147  test=15075
+  loaded 13566 rows; realized noise rate tau = 0.2599
+  ep   0  fr=0.000  a=0.7505  b=0.7483  ens=0.7515  best_ens=0.7515@0
+  ep   5  fr=0.184  a=0.7514  b=0.7514  ens=0.7518  best_ens=0.7524@1
+  ep  10  fr=0.260  a=0.7523  b=0.7524  ens=0.7522  best_ens=0.7530@7
+  ep  15  fr=0.260  a=0.7506  b=0.7510  ens=0.7514  best_ens=0.7530@7
+  ep  20  fr=0.260  a=0.7398  b=0.7410  ens=0.7406  best_ens=0.7530@7
+  ep  25  fr=0.260  a=0.7364  b=0.7334  ens=0.7345  best_ens=0.7544@21
+  ep  30  fr=0.260  a=0.7394  b=0.7424  ens=0.7402  best_ens=0.7544@21
+  ep  35  fr=0.260  a=0.7400  b=0.7329  ens=0.7378  best_ens=0.7564@32
+  ep  40  fr=0.260  a=0.7431  b=0.7391  ens=0.7408  best_ens=0.7564@32
+  ep  45  fr=0.260  a=0.7348  b=0.7371  ens=0.7373  best_ens=0.7564@32
+  early stop at epoch 48
+  DONE  best_ens_test_acc=0.7564  saved /path/to/ciln-workspace/experiments/downstream_adult/results/scaling_sev5__coteaching__clean__seed2.json

@@ -1,0 +1,25 @@
+# 2026-07-16T00:12:13.137329 | cmd = python /path/to/ciln-workspace/experiments/downstream_adult/train/train_adult_coteaching_v2.py --setting scaling_sev5 --variant C --image-source noisy --seed 0 --gpu 2
+[CoT] scaling_sev5__C__coteaching__noisy__seed0  gpu=2
+[load_adult] fetching from OpenML (id=1590)...
+[load_adult] dropped 3620 incomplete rows (7.4%); kept 45222
+[load_adult] train=30147  test=15075
+  N=10629  sampled_nr=17.27%  expected_nr=17.00%
+  ep   0  fr=0.000  a=0.8341  b=0.8329  ens=0.8338  best_ens=0.8338@0
+  ep   5  fr=0.122  a=0.8371  b=0.8379  ens=0.8375  best_ens=0.8397@3
+  ep  10  fr=0.173  a=0.8417  b=0.8414  ens=0.8417  best_ens=0.8417@10
+  ep  15  fr=0.173  a=0.8399  b=0.8393  ens=0.8398  best_ens=0.8421@12
+  ep  20  fr=0.173  a=0.8428  b=0.8416  ens=0.8426  best_ens=0.8426@20
+  ep  25  fr=0.173  a=0.8401  b=0.8374  ens=0.8395  best_ens=0.8429@23
+  ep  30  fr=0.173  a=0.8413  b=0.8401  ens=0.8408  best_ens=0.8429@23
+  ep  35  fr=0.173  a=0.8399  b=0.8393  ens=0.8409  best_ens=0.8429@23
+  ep  40  fr=0.173  a=0.8413  b=0.8413  ens=0.8411  best_ens=0.8442@39
+  ep  45  fr=0.173  a=0.8433  b=0.8429  ens=0.8429  best_ens=0.8443@43
+  ep  50  fr=0.173  a=0.8412  b=0.8428  ens=0.8433  best_ens=0.8443@43
+  ep  55  fr=0.173  a=0.8411  b=0.8426  ens=0.8425  best_ens=0.8443@43
+  ep  60  fr=0.173  a=0.8412  b=0.8417  ens=0.8420  best_ens=0.8445@58
+  ep  65  fr=0.173  a=0.8403  b=0.8425  ens=0.8425  best_ens=0.8445@58
+  ep  70  fr=0.173  a=0.8433  b=0.8423  ens=0.8431  best_ens=0.8445@58
+  early stop at ep 74
+  DONE  best_ens=0.8445  saved scaling_sev5__C__coteaching__noisy__seed0.json + persample.npz
+
+# exit=0

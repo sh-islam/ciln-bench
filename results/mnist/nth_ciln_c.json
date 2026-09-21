@@ -1,0 +1,275 @@
+{
+  "settings": [
+    {
+      "name": "brightness_sev1",
+      "noise_rate": 0.09102922587811697,
+      "m1_rate_variance": 0.012358093980936815,
+      "m2_frobenius": 0.02430450726625999
+    },
+    {
+      "name": "brightness_sev3",
+      "noise_rate": 0.2835159152717662,
+      "m1_rate_variance": 0.010193710031234916,
+      "m2_frobenius": 0.02298686946359548
+    },
+    {
+      "name": "brightness_sev5",
+      "noise_rate": 0.35524954992913776,
+      "m1_rate_variance": 0.0104039719390494,
+      "m2_frobenius": 0.03211325771275222
+    },
+    {
+      "name": "canny_edges_sev1",
+      "noise_rate": 0.3105105910292259,
+      "m1_rate_variance": 0.05442971070407103,
+      "m2_frobenius": 0.12418738589527091
+    },
+    {
+      "name": "canny_edges_sev3",
+      "noise_rate": 0.3105105910292259,
+      "m1_rate_variance": 0.05442971070407103,
+      "m2_frobenius": 0.12418738589527091
+    },
+    {
+      "name": "canny_edges_sev5",
+      "noise_rate": 0.3105105910292259,
+      "m1_rate_variance": 0.05442971070407103,
+      "m2_frobenius": 0.12418738589527091
+    },
+    {
+      "name": "dotted_line_sev1",
+      "noise_rate": 0.0117401463209101,
+      "m1_rate_variance": 0.003767093651932335,
+      "m2_frobenius": 0.007478845078818699
+    },
+    {
+      "name": "dotted_line_sev3",
+      "noise_rate": 0.012199793158922894,
+      "m1_rate_variance": 0.003906746376225608,
+      "m2_frobenius": 0.007759266353096838
+    },
+    {
+      "name": "dotted_line_sev5",
+      "noise_rate": 0.01161565863561497,
+      "m1_rate_variance": 0.0036206396263804277,
+      "m2_frobenius": 0.007226151438867804
+    },
+    {
+      "name": "fog_sev1",
+      "noise_rate": 0.08006473359635347,
+      "m1_rate_variance": 0.012324811529938228,
+      "m2_frobenius": 0.024385981375521792
+    },
+    {
+      "name": "fog_sev3",
+      "noise_rate": 0.2967403378404259,
+      "m1_rate_variance": 0.013993670982926351,
+      "m2_frobenius": 0.03305902119809624
+    },
+    {
+      "name": "fog_sev5",
+      "noise_rate": 0.38601716014861914,
+      "m1_rate_variance": 0.015315398750920273,
+      "m2_frobenius": 0.0465968661849676
+    },
+    {
+      "name": "glass_blur_sev1",
+      "noise_rate": 0.04612747538974221,
+      "m1_rate_variance": 0.013401476387675642,
+      "m2_frobenius": 0.02626644670905092
+    },
+    {
+      "name": "glass_blur_sev3",
+      "noise_rate": 0.320957980618225,
+      "m1_rate_variance": 0.03390769123905858,
+      "m2_frobenius": 0.07104622182223934
+    },
+    {
+      "name": "glass_blur_sev5",
+      "noise_rate": 0.7110449304784158,
+      "m1_rate_variance": 0.021741807871693247,
+      "m2_frobenius": 0.07754918994613659
+    },
+    {
+      "name": "impulse_noise_sev1",
+      "noise_rate": 0.013128662810740415,
+      "m1_rate_variance": 0.0035429400462718675,
+      "m2_frobenius": 0.007068191549422313
+    },
+    {
+      "name": "impulse_noise_sev3",
+      "noise_rate": 0.10449304784157505,
+      "m1_rate_variance": 0.018662053872076343,
+      "m2_frobenius": 0.041182266257751315
+    },
+    {
+      "name": "impulse_noise_sev5",
+      "noise_rate": 0.48284942735664765,
+      "m1_rate_variance": 0.05070490445207358,
+      "m2_frobenius": 0.13375264599145267
+    },
+    {
+      "name": "motion_blur_sev1",
+      "noise_rate": 0.006205232313172712,
+      "m1_rate_variance": 0.0017503893033527181,
+      "m2_frobenius": 0.0033954306296268577
+    },
+    {
+      "name": "motion_blur_sev3",
+      "noise_rate": 0.048368253725054586,
+      "m1_rate_variance": 0.01112887022707135,
+      "m2_frobenius": 0.022484614067224715
+    },
+    {
+      "name": "motion_blur_sev5",
+      "noise_rate": 0.09459148887271612,
+      "m1_rate_variance": 0.019001020499558506,
+      "m2_frobenius": 0.038207378295669614
+    },
+    {
+      "name": "rotate_sev1",
+      "noise_rate": 0.004041061784195809,
+      "m1_rate_variance": 0.0010933427753443145,
+      "m2_frobenius": 0.0020974724555067655
+    },
+    {
+      "name": "rotate_sev3",
+      "noise_rate": 0.03696326655686214,
+      "m1_rate_variance": 0.016322252380831074,
+      "m2_frobenius": 0.03109234898165814
+    },
+    {
+      "name": "rotate_sev5",
+      "noise_rate": 0.6367162063814302,
+      "m1_rate_variance": 0.09653525397496847,
+      "m2_frobenius": 0.32669350182455364
+    },
+    {
+      "name": "scale_sev1",
+      "noise_rate": 0.11478722181790324,
+      "m1_rate_variance": 0.03434765216940281,
+      "m2_frobenius": 0.07002888968697142
+    },
+    {
+      "name": "scale_sev3",
+      "noise_rate": 0.008493890527444746,
+      "m1_rate_variance": 0.00242413326419478,
+      "m2_frobenius": 0.004698279400264734
+    },
+    {
+      "name": "scale_sev5",
+      "noise_rate": 0.017591067529781283,
+      "m1_rate_variance": 0.005672739018307703,
+      "m2_frobenius": 0.010957120859463914
+    },
+    {
+      "name": "shear_sev1",
+      "noise_rate": 0.005065691193932661,
+      "m1_rate_variance": 0.0015214680836933448,
+      "m2_frobenius": 0.0029532997002644176
+    },
+    {
+      "name": "shear_sev3",
+      "noise_rate": 0.07377331750105336,
+      "m1_rate_variance": 0.026580556600882994,
+      "m2_frobenius": 0.050774880009606956
+    },
+    {
+      "name": "shear_sev5",
+      "noise_rate": 0.5635557513310606,
+      "m1_rate_variance": 0.07096459514979331,
+      "m2_frobenius": 0.20914336566433922
+    },
+    {
+      "name": "shot_noise_sev1",
+      "noise_rate": 0.0015130041751254453,
+      "m1_rate_variance": 0.0004144477008102518,
+      "m2_frobenius": 0.0008192887335346405
+    },
+    {
+      "name": "shot_noise_sev3",
+      "noise_rate": 0.005716857547784119,
+      "m1_rate_variance": 0.001595517305220253,
+      "m2_frobenius": 0.0031555115810295844
+    },
+    {
+      "name": "shot_noise_sev5",
+      "noise_rate": 0.02288658214272034,
+      "m1_rate_variance": 0.007072711135742928,
+      "m2_frobenius": 0.013895351514232766
+    },
+    {
+      "name": "spatter_sev1",
+      "noise_rate": 0.28270195732945186,
+      "m1_rate_variance": 0.029149080087973088,
+      "m2_frobenius": 0.06952498746400292
+    },
+    {
+      "name": "spatter_sev3",
+      "noise_rate": 0.22425020109549162,
+      "m1_rate_variance": 0.03303594122339558,
+      "m2_frobenius": 0.07024185831964827
+    },
+    {
+      "name": "spatter_sev5",
+      "noise_rate": 0.026669092580533956,
+      "m1_rate_variance": 0.007672690352028448,
+      "m2_frobenius": 0.015087244539073275
+    },
+    {
+      "name": "stripe_sev1",
+      "noise_rate": 0.2313076952541464,
+      "m1_rate_variance": 0.04177377871941454,
+      "m2_frobenius": 0.09839469479314915
+    },
+    {
+      "name": "stripe_sev3",
+      "noise_rate": 0.2313076952541464,
+      "m1_rate_variance": 0.04177377871941454,
+      "m2_frobenius": 0.09839469479314915
+    },
+    {
+      "name": "stripe_sev5",
+      "noise_rate": 0.2313076952541464,
+      "m1_rate_variance": 0.04177377871941454,
+      "m2_frobenius": 0.09839469479314915
+    },
+    {
+      "name": "translate_sev1",
+      "noise_rate": 0.016001455548320373,
+      "m1_rate_variance": 0.005158932767052861,
+      "m2_frobenius": 0.010063601731284892
+    },
+    {
+      "name": "translate_sev3",
+      "noise_rate": 0.2978224231049144,
+      "m1_rate_variance": 0.0385158389875556,
+      "m2_frobenius": 0.12275706125828201
+    },
+    {
+      "name": "translate_sev5",
+      "noise_rate": 0.4779561037269698,
+      "m1_rate_variance": 0.01759693468536066,
+      "m2_frobenius": 0.13577169875854397
+    },
+    {
+      "name": "zigzag_sev1",
+      "noise_rate": 0.04774581529857892,
+      "m1_rate_variance": 0.01298467881662808,
+      "m2_frobenius": 0.025921977043737963
+    },
+    {
+      "name": "zigzag_sev3",
+      "noise_rate": 0.04694143333205654,
+      "m1_rate_variance": 0.012897464144344117,
+      "m2_frobenius": 0.02567887135286784
+    },
+    {
+      "name": "zigzag_sev5",
+      "noise_rate": 0.047812847129122454,
+      "m1_rate_variance": 0.013051468124645863,
+      "m2_frobenius": 0.025962238312199622
+    }
+  ],
+  "note": "CILN-C variant: per-row metrics computed after applying the clean-correct mask (26107/27000 = 96.69% survivors). Mask requires all 4 voters (lenet5, mlp, resnet20, deit3_small) to correctly classify the clean NLT input."
+}

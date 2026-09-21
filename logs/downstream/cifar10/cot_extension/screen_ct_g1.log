@@ -1,0 +1,19 @@
+[10:50:08] START gpu=1 cond=ours_v2_noisy__shot_noise_sev5 seed=0
+[11:06:56] DONE  gpu=1 cond=ours_v2_noisy__shot_noise_sev5 seed=0 (exit=0)
+[11:06:56] START gpu=1 cond=ours_v2_noisy__shot_noise_sev5 seed=1
+[11:28:41] DONE  gpu=1 cond=ours_v2_noisy__shot_noise_sev5 seed=1 (exit=0)
+[11:28:41] START gpu=1 cond=ours_v2_noisy__shot_noise_sev5 seed=2
+[11:48:47] DONE  gpu=1 cond=ours_v2_noisy__shot_noise_sev5 seed=2 (exit=0)
+[11:48:47] START gpu=1 cond=ours_v2_ccp_noisy__pixelate_sev5 seed=0
+[12:05:43] DONE  gpu=1 cond=ours_v2_ccp_noisy__pixelate_sev5 seed=0 (exit=0)
+[12:05:43] START gpu=1 cond=ours_v2_ccp_noisy__pixelate_sev5 seed=1
+[12:22:16] DONE  gpu=1 cond=ours_v2_ccp_noisy__pixelate_sev5 seed=1 (exit=0)
+[12:22:16] START gpu=1 cond=ours_v2_ccp_noisy__pixelate_sev5 seed=2
+[12:40:35] DONE  gpu=1 cond=ours_v2_ccp_noisy__pixelate_sev5 seed=2 (exit=0)
+[12:40:35] START gpu=1 cond=ours_v2_ccp_noisy__glass_blur_sev3 seed=0
+[12:55:58] DONE  gpu=1 cond=ours_v2_ccp_noisy__glass_blur_sev3 seed=0 (exit=0)
+[12:55:58] START gpu=1 cond=ours_v2_ccp_noisy__glass_blur_sev3 seed=1
+[13:11:43] DONE  gpu=1 cond=ours_v2_ccp_noisy__glass_blur_sev3 seed=1 (exit=0)
+[13:11:43] START gpu=1 cond=ours_v2_ccp_noisy__glass_blur_sev3 seed=2
+[13:28:33] DONE  gpu=1 cond=ours_v2_ccp_noisy__glass_blur_sev3 seed=2 (exit=0)
+[13:28:33] ALL GPU 1 JOBS DONE

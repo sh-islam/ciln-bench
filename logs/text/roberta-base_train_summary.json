@@ -1,0 +1,9 @@
+{
+  "voter": "roberta-base",
+  "hf": "roberta-base",
+  "epochs": 2,
+  "lr": 2e-05,
+  "bs": 32,
+  "final_test_acc": 0.9452631578947368,
+  "elapsed_sec": 617.887305021286
+}

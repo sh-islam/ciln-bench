@@ -1,0 +1,67 @@
+[21:51:28] === START train_deit3_mnist on GPU 2 ===
+[loaders] mnist: train=54000  val=6000  test=10000
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[deit3_small/mnist] AMP enabled: True
+[deit3_small/mnist] ep 1/20  lr=1e-06  train_loss=2.2871 train_acc=0.1563  val_loss=1.9422 val_acc=0.5490  (121.1s)
+[deit3_small/mnist] ep 2/20  lr=2.8e-06  train_loss=1.9396 train_acc=0.3495  val_loss=0.5856 val_acc=0.9177  (118.5s)
+[deit3_small/mnist] ep 3/20  lr=4.6e-06  train_loss=1.6569 train_acc=0.4688  val_loss=0.3374 val_acc=0.9557  (117.6s)
+[deit3_small/mnist] ep 4/20  lr=6.4e-06  train_loss=1.5482 train_acc=0.5196  val_loss=0.2809 val_acc=0.9712  (117.8s)
+[deit3_small/mnist] ep 5/20  lr=8.2e-06  train_loss=1.4613 train_acc=0.5541  val_loss=0.2571 val_acc=0.9777  (117.9s)
+/path/to/ciln-workspace/venv/lib64/python3.12/site-packages/torch/optim/lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+[deit3_small/mnist] ep 6/20  lr=1e-05  train_loss=1.4237 train_acc=0.5622  val_loss=0.1980 val_acc=0.9808  (117.8s)
+[deit3_small/mnist] ep 7/20  lr=9.891e-06  train_loss=1.3854 train_acc=0.5719  val_loss=0.2055 val_acc=0.9835  (117.9s)
+[deit3_small/mnist] ep 8/20  lr=9.568e-06  train_loss=1.3575 train_acc=0.5282  val_loss=0.1597 val_acc=0.9850  (117.7s)
+[deit3_small/mnist] ep 9/20  lr=9.045e-06  train_loss=1.3445 train_acc=0.5569  val_loss=0.1470 val_acc=0.9853  (117.7s)
+[deit3_small/mnist] ep 10/20  lr=8.346e-06  train_loss=1.3269 train_acc=0.5800  val_loss=0.1506 val_acc=0.9858  (117.8s)
+[deit3_small/mnist] ep 11/20  lr=7.5e-06  train_loss=1.2911 train_acc=0.6072  val_loss=0.1834 val_acc=0.9870  (117.9s)
+[deit3_small/mnist] ep 12/20  lr=6.545e-06  train_loss=1.3056 train_acc=0.5690  val_loss=0.1724 val_acc=0.9878  (118.0s)
+[deit3_small/mnist] ep 13/20  lr=5.523e-06  train_loss=1.2778 train_acc=0.5656  val_loss=0.1903 val_acc=0.9882  (117.9s)
+[deit3_small/mnist] ep 14/20  lr=4.477e-06  train_loss=1.2677 train_acc=0.5946  val_loss=0.1434 val_acc=0.9878  (117.6s)
+[deit3_small/mnist] ep 15/20  lr=3.455e-06  train_loss=1.2740 train_acc=0.5826  val_loss=0.1429 val_acc=0.9885  (117.7s)
+[deit3_small/mnist] ep 16/20  lr=2.5e-06  train_loss=1.2753 train_acc=0.5978  val_loss=0.1428 val_acc=0.9887  (117.7s)
+[deit3_small/mnist] ep 17/20  lr=1.654e-06  train_loss=1.2816 train_acc=0.5799  val_loss=0.1601 val_acc=0.9880  (117.8s)
+[deit3_small/mnist] ep 18/20  lr=9.549e-07  train_loss=1.2625 train_acc=0.5971  val_loss=0.1461 val_acc=0.9888  (117.7s)
+[deit3_small/mnist] ep 19/20  lr=4.323e-07  train_loss=1.2671 train_acc=0.6268  val_loss=0.1539 val_acc=0.9885  (117.7s)
+[deit3_small/mnist] ep 20/20  lr=1.093e-07  train_loss=1.2623 train_acc=0.5864  val_loss=0.1554 val_acc=0.9887  (117.7s)
+
+=== DONE [deit3_small/mnist] ===
+  best val acc:  0.9888 at epoch 18
+  test acc:      0.9892 (loss 0.1422)
+  train acc:     0.8873
+  total time:    40.7 min
+  ckpt:          /path/to/ciln-workspace/journal_edition/checkpoints/deit3_small_mnist_best.pt
+[22:32:23] === DONE  train_deit3_mnist (GPU 2) ===
+[14:43:29] === START train_deit3_mnist on GPU 2 ===
+[loaders] mnist: train=27000  val=3000  test=10000
+[deit3_small/mnist] AMP enabled: True
+[deit3_small/mnist] ep 1/20  lr=1e-06  train_loss=2.3228 train_acc=0.1307  val_loss=2.1776 val_acc=0.2543  (60.1s)
+[deit3_small/mnist] ep 2/20  lr=2.8e-06  train_loss=2.1513 train_acc=0.2329  val_loss=1.1976 val_acc=0.7363  (59.5s)
+[deit3_small/mnist] ep 3/20  lr=4.6e-06  train_loss=1.8321 train_acc=0.3885  val_loss=0.5151 val_acc=0.9143  (59.7s)
+[deit3_small/mnist] ep 4/20  lr=6.4e-06  train_loss=1.6907 train_acc=0.4762  val_loss=0.3226 val_acc=0.9550  (59.8s)
+[deit3_small/mnist] ep 5/20  lr=8.2e-06  train_loss=1.5817 train_acc=0.5027  val_loss=0.2582 val_acc=0.9640  (59.6s)
+/path/to/ciln-workspace/venv/lib64/python3.12/site-packages/torch/optim/lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+[deit3_small/mnist] ep 6/20  lr=1e-05  train_loss=1.5067 train_acc=0.5150  val_loss=0.2203 val_acc=0.9713  (59.5s)
+[deit3_small/mnist] ep 7/20  lr=9.891e-06  train_loss=1.4614 train_acc=0.5510  val_loss=0.2292 val_acc=0.9757  (59.6s)
+[deit3_small/mnist] ep 8/20  lr=9.568e-06  train_loss=1.4550 train_acc=0.5410  val_loss=0.2067 val_acc=0.9747  (59.6s)
+[deit3_small/mnist] ep 9/20  lr=9.045e-06  train_loss=1.4031 train_acc=0.5693  val_loss=0.2490 val_acc=0.9787  (59.5s)
+[deit3_small/mnist] ep 10/20  lr=8.346e-06  train_loss=1.3955 train_acc=0.5729  val_loss=0.2593 val_acc=0.9787  (59.5s)
+[deit3_small/mnist] ep 11/20  lr=7.5e-06  train_loss=1.3737 train_acc=0.5419  val_loss=0.2001 val_acc=0.9797  (59.5s)
+[deit3_small/mnist] ep 12/20  lr=6.545e-06  train_loss=1.3817 train_acc=0.6018  val_loss=0.1769 val_acc=0.9830  (59.5s)
+[deit3_small/mnist] ep 13/20  lr=5.523e-06  train_loss=1.3408 train_acc=0.5815  val_loss=0.1802 val_acc=0.9843  (59.6s)
+[deit3_small/mnist] ep 14/20  lr=4.477e-06  train_loss=1.3884 train_acc=0.5629  val_loss=0.1765 val_acc=0.9843  (59.6s)
+[deit3_small/mnist] ep 15/20  lr=3.455e-06  train_loss=1.3547 train_acc=0.5381  val_loss=0.1494 val_acc=0.9857  (59.6s)
+[deit3_small/mnist] ep 16/20  lr=2.5e-06  train_loss=1.3417 train_acc=0.5184  val_loss=0.1825 val_acc=0.9857  (59.6s)
+[deit3_small/mnist] ep 17/20  lr=1.654e-06  train_loss=1.3624 train_acc=0.5563  val_loss=0.1901 val_acc=0.9867  (59.5s)
+[deit3_small/mnist] ep 18/20  lr=9.549e-07  train_loss=1.3263 train_acc=0.5558  val_loss=0.1699 val_acc=0.9867  (59.6s)
+[deit3_small/mnist] ep 19/20  lr=4.323e-07  train_loss=1.3345 train_acc=0.5800  val_loss=0.1632 val_acc=0.9870  (59.6s)
+[deit3_small/mnist] ep 20/20  lr=1.093e-07  train_loss=1.3488 train_acc=0.5669  val_loss=0.1630 val_acc=0.9870  (59.5s)
+
+=== DONE [deit3_small/mnist] ===
+  best val acc:  0.9870 at epoch 19
+  test acc:      0.9872 (loss 0.1638)
+  train acc:     0.8682
+  total time:    20.7 min
+  ckpt:          /path/to/ciln-workspace/journal_edition/checkpoints/deit3_small_mnist_best.pt
+[15:04:22] === DONE  train_deit3_mnist (GPU 2) ===

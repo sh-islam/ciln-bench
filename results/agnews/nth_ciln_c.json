@@ -1,0 +1,53 @@
+{
+  "settings": [
+    {
+      "name": "butter_fingers_sev1",
+      "noise_rate": 0.03231050019962357,
+      "m1_rate_variance": 0.010162678384725857,
+      "m2_frobenius": 0.01869584711622032
+    },
+    {
+      "name": "butter_fingers_sev3",
+      "noise_rate": 0.13146637768778874,
+      "m1_rate_variance": 0.044697119294862045,
+      "m2_frobenius": 0.08740859386169239
+    },
+    {
+      "name": "butter_fingers_sev5",
+      "noise_rate": 0.43847316488906635,
+      "m1_rate_variance": 0.08139459017049296,
+      "m2_frobenius": 0.17918041461716136
+    },
+    {
+      "name": "butter_fingers_sev6",
+      "noise_rate": 0.6006316660012547,
+      "m1_rate_variance": 0.06244696740855407,
+      "m2_frobenius": 0.15340760606288367
+    },
+    {
+      "name": "butter_fingers_sev8",
+      "noise_rate": 0.7318271259909884,
+      "m1_rate_variance": 0.031215907112811785,
+      "m2_frobenius": 0.09910965911350939
+    },
+    {
+      "name": "front_truncation_sev1",
+      "noise_rate": 0.025195345919123938,
+      "m1_rate_variance": 0.008921702813174693,
+      "m2_frobenius": 0.015596070154329294
+    },
+    {
+      "name": "front_truncation_sev3",
+      "noise_rate": 0.07475189642388638,
+      "m1_rate_variance": 0.03045053427744788,
+      "m2_frobenius": 0.0562692754944963
+    },
+    {
+      "name": "front_truncation_sev5",
+      "noise_rate": 0.1785704100838419,
+      "m1_rate_variance": 0.07115641939923474,
+      "m2_frobenius": 0.1379522892664486
+    }
+  ],
+  "note": "CILN-C variant: per-row metrics computed after applying the clean-correct mask (35066/50000 = 70.13% survivors). Mask requires all 4 voters (fasttext, distilbert, roberta, sbert) to correctly classify the clean NLT input."
+}

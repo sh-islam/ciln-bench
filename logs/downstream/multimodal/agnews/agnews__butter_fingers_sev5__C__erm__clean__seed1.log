@@ -1,0 +1,27 @@
+# 2026-07-20T02:58:35.675118 | cmd = python /path/to/ciln-workspace/experiments/downstream_multimodal/train_agnews/train_agnews_erm.py --setting butter_fingers_sev5 --variant C --image-source clean --seed 1 --gpu 2
+[AGN ERM] butter_fingers_sev5__C__erm__clean__seed1  gpu=2
+  N=35066  sampled_nr=44.04%
+  ep   0  train_loss=1.1681  test_acc=56.57%  best=56.57%@0
+  ep   5  train_loss=0.7492  test_acc=59.89%  best=63.76%@2
+  ep  10  train_loss=0.3056  test_acc=57.96%  best=63.76%@2
+  ep  15  train_loss=0.1811  test_acc=57.30%  best=63.76%@2
+  ep  20  train_loss=0.1306  test_acc=57.08%  best=63.76%@2
+  ep  25  train_loss=0.1088  test_acc=54.80%  best=63.76%@2
+  ep  30  train_loss=0.0912  test_acc=56.54%  best=63.76%@2
+  ep  35  train_loss=0.0702  test_acc=55.70%  best=63.76%@2
+  ep  40  train_loss=0.0630  test_acc=55.70%  best=63.76%@2
+  ep  45  train_loss=0.0475  test_acc=55.46%  best=63.76%@2
+  ep  50  train_loss=0.0404  test_acc=55.59%  best=63.76%@2
+  ep  55  train_loss=0.0333  test_acc=55.47%  best=63.76%@2
+  ep  60  train_loss=0.0250  test_acc=56.42%  best=63.76%@2
+  ep  65  train_loss=0.0226  test_acc=55.83%  best=63.76%@2
+  ep  70  train_loss=0.0186  test_acc=56.34%  best=63.76%@2
+  ep  75  train_loss=0.0144  test_acc=56.12%  best=63.76%@2
+  ep  80  train_loss=0.0112  test_acc=56.25%  best=63.76%@2
+  ep  85  train_loss=0.0104  test_acc=56.22%  best=63.76%@2
+  ep  90  train_loss=0.0095  test_acc=56.62%  best=63.76%@2
+  ep  95  train_loss=0.0090  test_acc=56.47%  best=63.76%@2
+  ep  99  train_loss=0.0091  test_acc=56.47%  best=63.76%@2
+  DONE  best=63.76%  saved butter_fingers_sev5__C__erm__clean__seed1.json + persample.npz
+
+# exit=0

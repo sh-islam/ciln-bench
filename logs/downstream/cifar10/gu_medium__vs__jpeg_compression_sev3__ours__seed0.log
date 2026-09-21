@@ -1,0 +1,27 @@
+[23:04:15] === gu_medium__vs__jpeg_compression_sev3__ours__seed0  device=cuda ===
+[23:04:15]   pair noise rates: {'name': 'gu_medium__vs__jpeg_compression_sev3', 'gu_level': 'medium', 'gu_noise_rate': 0.11088888888888888, 'ours_setting': 'jpeg_compression_sev3', 'ours_noise_rate': 0.15666666666666668, 'noise_rate_gap': 0.04577777777777779, 'n_rows': 9000}
+[23:04:15]   train rows: 9000  test rows: 10000
+[23:04:15]   epochs: 100  batch: 128  LR: 0.1 cosine  WD: 0.0005
+[23:04:18] epoch   1/100  tr_loss=1.9783  tr_acc(noisy)=24.92%  TEST=26.20%  (best so far 26.20% @ ep 1)
+[23:04:27] epoch   5/100  tr_loss=1.4208  tr_acc(noisy)=47.06%  TEST=40.82%  (best so far 43.50% @ ep 4)
+[23:04:39] epoch  10/100  tr_loss=1.0861  tr_acc(noisy)=60.01%  TEST=52.46%  (best so far 52.46% @ ep 10)
+[23:04:51] epoch  15/100  tr_loss=0.8859  tr_acc(noisy)=68.20%  TEST=52.64%  (best so far 60.72% @ ep 14)
+[23:05:03] epoch  20/100  tr_loss=0.7552  tr_acc(noisy)=72.89%  TEST=63.93%  (best so far 65.12% @ ep 18)
+[23:05:14] epoch  25/100  tr_loss=0.6467  tr_acc(noisy)=76.89%  TEST=68.07%  (best so far 68.07% @ ep 25)
+[23:05:25] epoch  30/100  tr_loss=0.5661  tr_acc(noisy)=80.12%  TEST=65.72%  (best so far 70.50% @ ep 29)
+[23:05:36] epoch  35/100  tr_loss=0.5225  tr_acc(noisy)=81.52%  TEST=67.42%  (best so far 71.31% @ ep 31)
+[23:05:47] epoch  40/100  tr_loss=0.4616  tr_acc(noisy)=83.78%  TEST=71.04%  (best so far 71.31% @ ep 31)
+[23:06:00] epoch  45/100  tr_loss=0.4049  tr_acc(noisy)=85.75%  TEST=66.12%  (best so far 71.31% @ ep 31)
+[23:06:12] epoch  50/100  tr_loss=0.3384  tr_acc(noisy)=88.28%  TEST=73.57%  (best so far 73.57% @ ep 50)
+[23:06:23] epoch  55/100  tr_loss=0.2827  tr_acc(noisy)=90.03%  TEST=71.47%  (best so far 73.57% @ ep 50)
+[23:06:34] epoch  60/100  tr_loss=0.2229  tr_acc(noisy)=91.89%  TEST=72.91%  (best so far 73.57% @ ep 50)
+[23:06:45] epoch  65/100  tr_loss=0.1751  tr_acc(noisy)=93.87%  TEST=72.48%  (best so far 73.59% @ ep 64)
+[23:07:02] epoch  70/100  tr_loss=0.1207  tr_acc(noisy)=95.92%  TEST=75.52%  (best so far 75.99% @ ep 68)
+[23:07:14] epoch  75/100  tr_loss=0.0775  tr_acc(noisy)=97.68%  TEST=76.50%  (best so far 76.50% @ ep 75)
+[23:07:25] epoch  80/100  tr_loss=0.0532  tr_acc(noisy)=98.63%  TEST=76.72%  (best so far 76.78% @ ep 78)
+[23:07:36] epoch  85/100  tr_loss=0.0329  tr_acc(noisy)=99.35%  TEST=76.71%  (best so far 76.78% @ ep 78)
+[23:07:47] epoch  90/100  tr_loss=0.0280  tr_acc(noisy)=99.41%  TEST=77.05%  (best so far 77.08% @ ep 87)
+[23:07:58] epoch  95/100  tr_loss=0.0228  tr_acc(noisy)=99.59%  TEST=77.10%  (best so far 77.36% @ ep 92)
+[23:08:12] epoch 100/100  tr_loss=0.0229  tr_acc(noisy)=99.60%  TEST=77.13%  (best so far 77.36% @ ep 92)
+[23:08:12] === FINAL  best test acc = 77.36% @ epoch 92 ===
+[23:08:12] saved /path/to/ciln-workspace/journal_edition/robustness_transfer/results/gu_medium__vs__jpeg_compression_sev3__ours__seed0.json

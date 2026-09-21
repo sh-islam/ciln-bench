@@ -1,0 +1,15 @@
+=== GPU2  ERM phase ===
+[15:53:31] GPU2  train_erm_v4.py  cond=ours_v2_noisy__pixelate_sev5  seed=0  -> /path/to/ciln-workspace/journal_edition/robustness_transfer/logs/v4/train_erm_v4__ours_v2_noisy__pixelate_sev5__seed0.log
+[16:04:16] GPU2  train_erm_v4.py  cond=ours_v2_noisy__pixelate_sev5  seed=1  -> /path/to/ciln-workspace/journal_edition/robustness_transfer/logs/v4/train_erm_v4__ours_v2_noisy__pixelate_sev5__seed1.log
+[16:14:39] GPU2  train_erm_v4.py  cond=ours_v2_noisy__pixelate_sev5  seed=2  -> /path/to/ciln-workspace/journal_edition/robustness_transfer/logs/v4/train_erm_v4__ours_v2_noisy__pixelate_sev5__seed2.log
+[16:25:50] GPU2  train_erm_v4.py  cond=ours_v2_noisy__glass_blur_sev3  seed=0  -> /path/to/ciln-workspace/journal_edition/robustness_transfer/logs/v4/train_erm_v4__ours_v2_noisy__glass_blur_sev3__seed0.log
+[16:36:56] GPU2  train_erm_v4.py  cond=ours_v2_noisy__glass_blur_sev3  seed=1  -> /path/to/ciln-workspace/journal_edition/robustness_transfer/logs/v4/train_erm_v4__ours_v2_noisy__glass_blur_sev3__seed1.log
+[16:49:02] GPU2  train_erm_v4.py  cond=ours_v2_noisy__glass_blur_sev3  seed=2  -> /path/to/ciln-workspace/journal_edition/robustness_transfer/logs/v4/train_erm_v4__ours_v2_noisy__glass_blur_sev3__seed2.log
+=== GPU2  Co-Teaching phase ===
+[17:00:36] GPU2  train_coteaching_v4.py  cond=ours_v2_noisy__pixelate_sev5  seed=0  -> /path/to/ciln-workspace/journal_edition/robustness_transfer/logs/v4/train_coteaching_v4__ours_v2_noisy__pixelate_sev5__seed0.log
+[17:20:24] GPU2  train_coteaching_v4.py  cond=ours_v2_noisy__pixelate_sev5  seed=1  -> /path/to/ciln-workspace/journal_edition/robustness_transfer/logs/v4/train_coteaching_v4__ours_v2_noisy__pixelate_sev5__seed1.log
+[17:38:49] GPU2  train_coteaching_v4.py  cond=ours_v2_noisy__pixelate_sev5  seed=2  -> /path/to/ciln-workspace/journal_edition/robustness_transfer/logs/v4/train_coteaching_v4__ours_v2_noisy__pixelate_sev5__seed2.log
+[17:58:11] GPU2  train_coteaching_v4.py  cond=ours_v2_noisy__glass_blur_sev3  seed=0  -> /path/to/ciln-workspace/journal_edition/robustness_transfer/logs/v4/train_coteaching_v4__ours_v2_noisy__glass_blur_sev3__seed0.log
+[18:19:33] GPU2  train_coteaching_v4.py  cond=ours_v2_noisy__glass_blur_sev3  seed=1  -> /path/to/ciln-workspace/journal_edition/robustness_transfer/logs/v4/train_coteaching_v4__ours_v2_noisy__glass_blur_sev3__seed1.log
+[18:44:28] GPU2  train_coteaching_v4.py  cond=ours_v2_noisy__glass_blur_sev3  seed=2  -> /path/to/ciln-workspace/journal_edition/robustness_transfer/logs/v4/train_coteaching_v4__ours_v2_noisy__glass_blur_sev3__seed2.log
+[19:05:19] GPU2  DONE.

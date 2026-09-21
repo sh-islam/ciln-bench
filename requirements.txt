@@ -1,0 +1,25 @@
+# CILN-Bench requirements
+#
+# The public/ analysis interfaces only need NumPy + pandas + SciPy. The full
+# canonical/ corruption pipeline pulls in cv2, wand and scikit-image because
+# the CIFAR-C functions follow Hendrycks & Dietterich (2019) verbatim.
+
+# Core (public/ only)
+numpy>=1.23
+pandas>=1.5
+scipy>=1.10
+
+# Canonical/ image corruption pipeline
+opencv-python>=4.7
+scikit-image>=0.21
+Wand>=0.6           # requires ImageMagick installed system-wide
+Pillow>=9.5
+
+# IDN m3..m6 analysis (CLIP partition + kNN floors)
+torch>=2.0
+torchvision>=0.15
+git+https://github.com/openai/CLIP.git  # used only by code/analyze/canonical
+scikit-learn>=1.2
+
+# Optional for reproduction examples
+matplotlib>=3.7

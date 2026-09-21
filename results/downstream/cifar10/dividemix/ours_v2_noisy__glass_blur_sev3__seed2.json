@@ -1,0 +1,624 @@
+{
+  "condition": "ours_v2_noisy__glass_blur_sev3",
+  "seed": 2,
+  "method": "dividemix",
+  "n_train": 22500,
+  "sampled_noise_rate": 0.6467555555555555,
+  "best_test_acc": 0.31085,
+  "best_epoch": 8,
+  "final_test_acc": 0.1,
+  "best_acc1": 0.3189,
+  "best_acc2": 0.3201,
+  "warm_epochs": 10,
+  "history": [
+    {
+      "epoch": 0,
+      "acc1": 0.254,
+      "acc2": 0.1564,
+      "ens_acc": 0.2052
+    },
+    {
+      "epoch": 1,
+      "acc1": 0.1998,
+      "acc2": 0.1651,
+      "ens_acc": 0.18245
+    },
+    {
+      "epoch": 2,
+      "acc1": 0.2358,
+      "acc2": 0.2622,
+      "ens_acc": 0.249
+    },
+    {
+      "epoch": 3,
+      "acc1": 0.2561,
+      "acc2": 0.2531,
+      "ens_acc": 0.2546
+    },
+    {
+      "epoch": 4,
+      "acc1": 0.3093,
+      "acc2": 0.2981,
+      "ens_acc": 0.30369999999999997
+    },
+    {
+      "epoch": 5,
+      "acc1": 0.295,
+      "acc2": 0.2757,
+      "ens_acc": 0.28535
+    },
+    {
+      "epoch": 6,
+      "acc1": 0.2807,
+      "acc2": 0.282,
+      "ens_acc": 0.28135
+    },
+    {
+      "epoch": 7,
+      "acc1": 0.2996,
+      "acc2": 0.2919,
+      "ens_acc": 0.29574999999999996
+    },
+    {
+      "epoch": 8,
+      "acc1": 0.3189,
+      "acc2": 0.3028,
+      "ens_acc": 0.31085
+    },
+    {
+      "epoch": 9,
+      "acc1": 0.2855,
+      "acc2": 0.3201,
+      "ens_acc": 0.30279999999999996
+    },
+    {
+      "epoch": 10,
+      "acc1": 0.1675,
+      "acc2": 0.1,
+      "ens_acc": 0.13375
+    },
+    {
+      "epoch": 11,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 12,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 13,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 14,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 15,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 16,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 17,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 18,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 19,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 20,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 21,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 22,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 23,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 24,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 25,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 26,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 27,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 28,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 29,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 30,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 31,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 32,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 33,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 34,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 35,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 36,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 37,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 38,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 39,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 40,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 41,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 42,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 43,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 44,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 45,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 46,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 47,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 48,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 49,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 50,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 51,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 52,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 53,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 54,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 55,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 56,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 57,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 58,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 59,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 60,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 61,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 62,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 63,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 64,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 65,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 66,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 67,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 68,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 69,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 70,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 71,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 72,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 73,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 74,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 75,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 76,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 77,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 78,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 79,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 80,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 81,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 82,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 83,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 84,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 85,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 86,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 87,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 88,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 89,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 90,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 91,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 92,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 93,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 94,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 95,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 96,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 97,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 98,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    },
+    {
+      "epoch": 99,
+      "acc1": 0.1,
+      "acc2": 0.1,
+      "ens_acc": 0.1
+    }
+  ],
+  "log_epochs": [
+    5,
+    10,
+    20,
+    30,
+    50,
+    75,
+    99
+  ]
+}

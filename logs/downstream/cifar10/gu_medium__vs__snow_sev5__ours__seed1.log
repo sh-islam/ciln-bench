@@ -1,0 +1,27 @@
+[21:22:20] === gu_medium__vs__snow_sev5__ours__seed1  device=cuda ===
+[21:22:20]   pair noise rates: {'name': 'gu_medium__vs__snow_sev5', 'gu_level': 'medium', 'gu_noise_rate': 0.11088888888888888, 'ours_setting': 'snow_sev5', 'ours_noise_rate': 0.16366666666666665, 'noise_rate_gap': 0.05277777777777777, 'n_rows': 9000}
+[21:22:20]   train rows: 9000  test rows: 10000
+[21:22:20]   epochs: 100  batch: 128  LR: 0.1 cosine  WD: 0.0005
+[21:22:23] epoch   1/100  tr_loss=1.9847  tr_acc(noisy)=26.06%  TEST=24.44%  (best so far 24.44% @ ep 1)
+[21:22:39] epoch   5/100  tr_loss=1.4854  tr_acc(noisy)=44.78%  TEST=38.27%  (best so far 38.27% @ ep 5)
+[21:22:50] epoch  10/100  tr_loss=1.1896  tr_acc(noisy)=57.06%  TEST=52.02%  (best so far 54.47% @ ep 9)
+[21:23:01] epoch  15/100  tr_loss=1.0014  tr_acc(noisy)=64.45%  TEST=56.67%  (best so far 56.67% @ ep 15)
+[21:23:12] epoch  20/100  tr_loss=0.8820  tr_acc(noisy)=69.04%  TEST=60.07%  (best so far 60.07% @ ep 20)
+[21:23:24] epoch  25/100  tr_loss=0.7656  tr_acc(noisy)=74.19%  TEST=66.96%  (best so far 66.96% @ ep 25)
+[21:23:35] epoch  30/100  tr_loss=0.7015  tr_acc(noisy)=75.69%  TEST=67.17%  (best so far 67.17% @ ep 30)
+[21:23:47] epoch  35/100  tr_loss=0.6299  tr_acc(noisy)=78.53%  TEST=66.69%  (best so far 67.42% @ ep 32)
+[21:23:58] epoch  40/100  tr_loss=0.5719  tr_acc(noisy)=79.96%  TEST=70.04%  (best so far 70.04% @ ep 40)
+[21:24:10] epoch  45/100  tr_loss=0.5187  tr_acc(noisy)=82.21%  TEST=69.46%  (best so far 70.10% @ ep 41)
+[21:24:22] epoch  50/100  tr_loss=0.4392  tr_acc(noisy)=84.70%  TEST=70.24%  (best so far 71.20% @ ep 46)
+[21:24:33] epoch  55/100  tr_loss=0.3805  tr_acc(noisy)=86.61%  TEST=69.36%  (best so far 72.36% @ ep 52)
+[21:24:47] epoch  60/100  tr_loss=0.3213  tr_acc(noisy)=88.91%  TEST=70.78%  (best so far 72.36% @ ep 52)
+[21:24:59] epoch  65/100  tr_loss=0.2566  tr_acc(noisy)=91.45%  TEST=70.50%  (best so far 73.31% @ ep 61)
+[21:25:12] epoch  70/100  tr_loss=0.1895  tr_acc(noisy)=93.71%  TEST=70.00%  (best so far 73.98% @ ep 68)
+[21:25:24] epoch  75/100  tr_loss=0.1199  tr_acc(noisy)=96.22%  TEST=73.35%  (best so far 73.98% @ ep 68)
+[21:25:35] epoch  80/100  tr_loss=0.0756  tr_acc(noisy)=97.75%  TEST=73.95%  (best so far 74.64% @ ep 77)
+[21:25:52] epoch  85/100  tr_loss=0.0514  tr_acc(noisy)=98.68%  TEST=74.22%  (best so far 74.64% @ ep 77)
+[21:26:04] epoch  90/100  tr_loss=0.0388  tr_acc(noisy)=99.22%  TEST=74.55%  (best so far 74.98% @ ep 86)
+[21:26:16] epoch  95/100  tr_loss=0.0315  tr_acc(noisy)=99.54%  TEST=74.91%  (best so far 74.98% @ ep 86)
+[21:26:27] epoch 100/100  tr_loss=0.0310  tr_acc(noisy)=99.40%  TEST=74.82%  (best so far 75.02% @ ep 98)
+[21:26:27] === FINAL  best test acc = 75.02% @ epoch 98 ===
+[21:26:27] saved /path/to/ciln-workspace/journal_edition/robustness_transfer/results/gu_medium__vs__snow_sev5__ours__seed1.json

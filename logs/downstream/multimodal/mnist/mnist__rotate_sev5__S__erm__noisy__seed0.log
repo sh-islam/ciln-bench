@@ -1,0 +1,27 @@
+# 2026-07-16T17:41:20.608945 | cmd = python /path/to/ciln-workspace/experiments/downstream_multimodal/train_mnist/train_mnist_erm.py --setting rotate_sev5 --variant S --image-source noisy --seed 0 --gpu 1
+[MNIST ERM] rotate_sev5__S__erm__noisy__seed0  gpu=1
+  N=27000  sampled_nr=64.14%  expected_nr=64.00%
+  ep   0  train_loss=1.5344  test_acc=77.71%  best=77.71%@0
+  ep   5  train_loss=0.9776  test_acc=92.63%  best=92.63%@5
+  ep  10  train_loss=0.9047  test_acc=91.87%  best=93.38%@9
+  ep  15  train_loss=0.8499  test_acc=93.73%  best=94.76%@12
+  ep  20  train_loss=0.7852  test_acc=93.94%  best=94.76%@12
+  ep  25  train_loss=0.7290  test_acc=93.16%  best=94.76%@12
+  ep  30  train_loss=0.6683  test_acc=92.36%  best=94.76%@12
+  ep  35  train_loss=0.5997  test_acc=92.62%  best=94.76%@12
+  ep  40  train_loss=0.5366  test_acc=92.43%  best=94.76%@12
+  ep  45  train_loss=0.4762  test_acc=92.34%  best=94.76%@12
+  ep  50  train_loss=0.4172  test_acc=92.02%  best=94.76%@12
+  ep  55  train_loss=0.3605  test_acc=91.05%  best=94.76%@12
+  ep  60  train_loss=0.3116  test_acc=91.42%  best=94.76%@12
+  ep  65  train_loss=0.2701  test_acc=90.86%  best=94.76%@12
+  ep  70  train_loss=0.2372  test_acc=90.81%  best=94.76%@12
+  ep  75  train_loss=0.2078  test_acc=90.77%  best=94.76%@12
+  ep  80  train_loss=0.1879  test_acc=90.72%  best=94.76%@12
+  ep  85  train_loss=0.1741  test_acc=90.69%  best=94.76%@12
+  ep  90  train_loss=0.1652  test_acc=90.65%  best=94.76%@12
+  ep  95  train_loss=0.1604  test_acc=90.68%  best=94.76%@12
+  ep  99  train_loss=0.1589  test_acc=90.67%  best=94.76%@12
+  DONE  best=94.76%  saved rotate_sev5__S__erm__noisy__seed0.json + persample.npz
+
+# exit=0

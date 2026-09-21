@@ -1,0 +1,19 @@
+[10:49:57] START gpu=0 cond=ours_v2_clean__shot_noise_sev5 seed=0
+[11:07:14] DONE  gpu=0 cond=ours_v2_clean__shot_noise_sev5 seed=0 (exit=0)
+[11:07:14] START gpu=0 cond=ours_v2_clean__shot_noise_sev5 seed=1
+[11:29:00] DONE  gpu=0 cond=ours_v2_clean__shot_noise_sev5 seed=1 (exit=0)
+[11:29:00] START gpu=0 cond=ours_v2_clean__shot_noise_sev5 seed=2
+[11:49:09] DONE  gpu=0 cond=ours_v2_clean__shot_noise_sev5 seed=2 (exit=0)
+[11:49:09] START gpu=0 cond=ours_v2_ccp_clean__pixelate_sev5 seed=0
+[12:06:13] DONE  gpu=0 cond=ours_v2_ccp_clean__pixelate_sev5 seed=0 (exit=0)
+[12:06:13] START gpu=0 cond=ours_v2_ccp_clean__pixelate_sev5 seed=1
+[12:22:42] DONE  gpu=0 cond=ours_v2_ccp_clean__pixelate_sev5 seed=1 (exit=0)
+[12:22:42] START gpu=0 cond=ours_v2_ccp_clean__pixelate_sev5 seed=2
+[12:40:48] DONE  gpu=0 cond=ours_v2_ccp_clean__pixelate_sev5 seed=2 (exit=0)
+[12:40:48] START gpu=0 cond=ours_v2_ccp_clean__glass_blur_sev3 seed=0
+[12:56:02] DONE  gpu=0 cond=ours_v2_ccp_clean__glass_blur_sev3 seed=0 (exit=0)
+[12:56:02] START gpu=0 cond=ours_v2_ccp_clean__glass_blur_sev3 seed=1
+[13:11:40] DONE  gpu=0 cond=ours_v2_ccp_clean__glass_blur_sev3 seed=1 (exit=0)
+[13:11:40] START gpu=0 cond=ours_v2_ccp_clean__glass_blur_sev3 seed=2
+[13:28:27] DONE  gpu=0 cond=ours_v2_ccp_clean__glass_blur_sev3 seed=2 (exit=0)
+[13:28:27] ALL GPU 0 JOBS DONE

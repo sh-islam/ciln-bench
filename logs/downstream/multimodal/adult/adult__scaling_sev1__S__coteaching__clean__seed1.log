@@ -1,0 +1,21 @@
+# 2026-07-15T23:15:02.825753 | cmd = python /path/to/ciln-workspace/experiments/downstream_adult/train/train_adult_coteaching_v2.py --setting scaling_sev1 --variant S --image-source clean --seed 1 --gpu 2
+[CoT] scaling_sev1__S__coteaching__clean__seed1  gpu=2
+[load_adult] fetching from OpenML (id=1590)...
+[load_adult] dropped 3620 incomplete rows (7.4%); kept 45222
+[load_adult] train=30147  test=15075
+  N=13566  sampled_nr=15.83%  expected_nr=15.93%
+[load_adult] fetching from OpenML (id=1590)...
+[load_adult] dropped 3620 incomplete rows (7.4%); kept 45222
+[load_adult] train=30147  test=15075
+  ep   0  fr=0.000  a=0.7522  b=0.7522  ens=0.7522  best_ens=0.7522@0
+  ep   5  fr=0.112  a=0.7522  b=0.7510  ens=0.7521  best_ens=0.7522@0
+  ep  10  fr=0.158  a=0.7523  b=0.7518  ens=0.7522  best_ens=0.7524@8
+  ep  15  fr=0.158  a=0.7521  b=0.7510  ens=0.7520  best_ens=0.7524@8
+  ep  20  fr=0.158  a=0.7400  b=0.7356  ens=0.7380  best_ens=0.7524@8
+  ep  25  fr=0.158  a=0.7507  b=0.7498  ens=0.7501  best_ens=0.7534@22
+  ep  30  fr=0.158  a=0.7531  b=0.7487  ens=0.7520  best_ens=0.7534@22
+  ep  35  fr=0.158  a=0.7469  b=0.7441  ens=0.7455  best_ens=0.7534@22
+  early stop at ep 38
+  DONE  best_ens=0.7534  saved scaling_sev1__S__coteaching__clean__seed1.json + persample.npz
+
+# exit=0

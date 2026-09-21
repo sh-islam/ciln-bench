@@ -1,0 +1,14 @@
+[ERM] setting=missing_mnar_sev5  image_source=noisy  seed=2  gpu=1
+[load_adult] fetching from OpenML (id=1590)...
+[load_adult] dropped 3620 incomplete rows (7.4%); kept 45222
+[load_adult] train=30147  test=15075
+  loaded 13566 training rows, label diversity = 2
+  ep   0  train_loss=0.3842  test_acc=0.8259  best=0.8259@0
+  ep   5  train_loss=0.3346  test_acc=0.8347  best=0.8347@5
+  ep  10  train_loss=0.3301  test_acc=0.8367  best=0.8367@10
+  ep  15  train_loss=0.3261  test_acc=0.8355  best=0.8369@14
+  ep  20  train_loss=0.3173  test_acc=0.8360  best=0.8369@14
+  ep  25  train_loss=0.3110  test_acc=0.8321  best=0.8369@14
+  ep  30  train_loss=0.3030  test_acc=0.8301  best=0.8369@14
+  early stop at epoch 30 (no improvement for 16 epochs)
+  DONE  best_test_acc=0.8369  saved /path/to/ciln-workspace/experiments/downstream_adult/results/missing_mnar_sev5__erm__noisy__seed2.json

@@ -1,0 +1,27 @@
+[20:44:42] === gu_high__vs__motion_blur_sev5__gu__seed1  device=cuda ===
+[20:44:42]   pair noise rates: {'name': 'gu_high__vs__motion_blur_sev5', 'gu_level': 'high', 'gu_noise_rate': 0.2962222222222222, 'ours_setting': 'motion_blur_sev5', 'ours_noise_rate': 0.2663333333333333, 'noise_rate_gap': -0.02988888888888891, 'n_rows': 9000}
+[20:44:42]   train rows: 9000  test rows: 10000
+[20:44:42]   epochs: 100  batch: 128  LR: 0.1 cosine  WD: 0.0005
+[20:44:45] epoch   1/100  tr_loss=1.9072  tr_acc(noisy)=28.68%  TEST=23.46%  (best so far 23.46% @ ep 1)
+[20:44:54] epoch   5/100  tr_loss=1.1282  tr_acc(noisy)=57.87%  TEST=34.87%  (best so far 43.23% @ ep 3)
+[20:45:05] epoch  10/100  tr_loss=0.7627  tr_acc(noisy)=71.90%  TEST=54.36%  (best so far 57.21% @ ep 9)
+[20:45:21] epoch  15/100  tr_loss=0.6159  tr_acc(noisy)=77.14%  TEST=53.58%  (best so far 59.77% @ ep 13)
+[20:45:32] epoch  20/100  tr_loss=0.5612  tr_acc(noisy)=79.23%  TEST=62.75%  (best so far 62.75% @ ep 20)
+[20:45:44] epoch  25/100  tr_loss=0.5128  tr_acc(noisy)=80.99%  TEST=60.15%  (best so far 62.75% @ ep 20)
+[20:45:56] epoch  30/100  tr_loss=0.4522  tr_acc(noisy)=83.33%  TEST=61.49%  (best so far 62.75% @ ep 20)
+[20:46:08] epoch  35/100  tr_loss=0.4368  tr_acc(noisy)=83.94%  TEST=58.66%  (best so far 62.75% @ ep 20)
+[20:46:20] epoch  40/100  tr_loss=0.4112  tr_acc(noisy)=84.77%  TEST=60.25%  (best so far 62.75% @ ep 20)
+[20:46:32] epoch  45/100  tr_loss=0.3543  tr_acc(noisy)=87.08%  TEST=63.52%  (best so far 64.63% @ ep 44)
+[20:46:43] epoch  50/100  tr_loss=0.3141  tr_acc(noisy)=88.48%  TEST=61.50%  (best so far 64.63% @ ep 44)
+[20:46:55] epoch  55/100  tr_loss=0.2930  tr_acc(noisy)=89.08%  TEST=63.81%  (best so far 65.46% @ ep 52)
+[20:47:06] epoch  60/100  tr_loss=0.2281  tr_acc(noisy)=91.57%  TEST=57.61%  (best so far 65.46% @ ep 52)
+[20:47:19] epoch  65/100  tr_loss=0.1862  tr_acc(noisy)=93.14%  TEST=66.04%  (best so far 66.04% @ ep 65)
+[20:47:30] epoch  70/100  tr_loss=0.1442  tr_acc(noisy)=95.10%  TEST=66.41%  (best so far 66.41% @ ep 70)
+[20:47:42] epoch  75/100  tr_loss=0.1124  tr_acc(noisy)=96.33%  TEST=66.61%  (best so far 66.61% @ ep 75)
+[20:47:54] epoch  80/100  tr_loss=0.0730  tr_acc(noisy)=97.54%  TEST=66.43%  (best so far 66.86% @ ep 79)
+[20:48:06] epoch  85/100  tr_loss=0.0514  tr_acc(noisy)=98.58%  TEST=66.80%  (best so far 67.31% @ ep 81)
+[20:48:17] epoch  90/100  tr_loss=0.0400  tr_acc(noisy)=99.02%  TEST=67.23%  (best so far 67.31% @ ep 81)
+[20:48:33] epoch  95/100  tr_loss=0.0368  tr_acc(noisy)=99.22%  TEST=67.32%  (best so far 67.32% @ ep 95)
+[20:48:44] epoch 100/100  tr_loss=0.0350  tr_acc(noisy)=99.17%  TEST=67.24%  (best so far 67.32% @ ep 95)
+[20:48:44] === FINAL  best test acc = 67.32% @ epoch 95 ===
+[20:48:44] saved /path/to/ciln-workspace/journal_edition/robustness_transfer/results/gu_high__vs__motion_blur_sev5__gu__seed1.json

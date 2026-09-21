@@ -1,0 +1,100 @@
+{
+  "settings": [
+    {
+      "name": "butter_fingers_sev1",
+      "n_images": 50000,
+      "noise_rate": 0.13111,
+      "vdv": 0.10495538221399277,
+      "per_voter_acc": {
+        "fasttext": 0.87796,
+        "distilbert": 0.91738,
+        "roberta": 0.93052,
+        "sbert": 0.7497
+      }
+    },
+    {
+      "name": "butter_fingers_sev3",
+      "n_images": 50000,
+      "noise_rate": 0.2179,
+      "vdv": 0.1538458543292864,
+      "per_voter_acc": {
+        "fasttext": 0.78064,
+        "distilbert": 0.81562,
+        "roberta": 0.82618,
+        "sbert": 0.70596
+      }
+    },
+    {
+      "name": "butter_fingers_sev5",
+      "n_images": 50000,
+      "noise_rate": 0.46618,
+      "vdv": 0.18281461426332862,
+      "per_voter_acc": {
+        "fasttext": 0.57682,
+        "distilbert": 0.52814,
+        "roberta": 0.4796,
+        "sbert": 0.55072
+      }
+    },
+    {
+      "name": "butter_fingers_sev6",
+      "n_images": 50000,
+      "noise_rate": 0.59246,
+      "vdv": 0.14699002841169437,
+      "per_voter_acc": {
+        "fasttext": 0.46682,
+        "distilbert": 0.38772,
+        "roberta": 0.33432,
+        "sbert": 0.4413
+      }
+    },
+    {
+      "name": "butter_fingers_sev8",
+      "n_images": 50000,
+      "noise_rate": 0.69709,
+      "vdv": 0.0975411190141171,
+      "per_voter_acc": {
+        "fasttext": 0.35116,
+        "distilbert": 0.28518,
+        "roberta": 0.25816,
+        "sbert": 0.31714
+      }
+    },
+    {
+      "name": "front_truncation_sev1",
+      "n_images": 50000,
+      "noise_rate": 0.12996,
+      "vdv": 0.1104630246866067,
+      "per_voter_acc": {
+        "fasttext": 0.88194,
+        "distilbert": 0.917,
+        "roberta": 0.9251,
+        "sbert": 0.75612
+      }
+    },
+    {
+      "name": "front_truncation_sev3",
+      "n_images": 50000,
+      "noise_rate": 0.173515,
+      "vdv": 0.151036165365212,
+      "per_voter_acc": {
+        "fasttext": 0.81522,
+        "distilbert": 0.87224,
+        "roberta": 0.88288,
+        "sbert": 0.7356
+      }
+    },
+    {
+      "name": "front_truncation_sev5",
+      "n_images": 50000,
+      "noise_rate": 0.264565,
+      "vdv": 0.21158566789868677,
+      "per_voter_acc": {
+        "fasttext": 0.70112,
+        "distilbert": 0.7774,
+        "roberta": 0.79358,
+        "sbert": 0.66964
+      }
+    }
+  ]
+}

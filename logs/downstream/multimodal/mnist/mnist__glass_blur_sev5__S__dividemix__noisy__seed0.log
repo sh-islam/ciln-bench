@@ -1,0 +1,27 @@
+# 2026-07-16T16:38:36.754105 | cmd = python /path/to/ciln-workspace/experiments/downstream_multimodal/train_mnist/train_mnist_dividemix.py --setting glass_blur_sev5 --variant S --image-source noisy --seed 0 --gpu 1
+[MNIST DM] glass_blur_sev5__S__dividemix__noisy__seed0  gpu=1
+  N=27000  sampled_nr=71.64%
+  ep   0  a=36.56%  b=38.37%  ens=38.06%  best_ens=38.06%@0  [3.7s]
+  ep   5  a=52.27%  b=55.18%  ens=54.74%  best_ens=55.71%@3  [3.9s]
+  ep  10  a=47.47%  b=44.76%  ens=46.83%  best_ens=55.71%@3  [5.6s]
+  ep  15  a=36.31%  b=34.48%  ens=36.17%  best_ens=55.71%@3  [4.3s]
+  ep  20  a=32.72%  b=30.45%  ens=31.89%  best_ens=55.71%@3  [5.1s]
+  ep  25  a=30.49%  b=29.18%  ens=29.63%  best_ens=55.71%@3  [4.3s]
+  ep  30  a=31.44%  b=29.78%  ens=30.62%  best_ens=55.71%@3  [5.4s]
+  ep  35  a=30.32%  b=27.72%  ens=29.09%  best_ens=55.71%@3  [4.4s]
+  ep  40  a=31.34%  b=27.11%  ens=28.63%  best_ens=55.71%@3  [4.3s]
+  ep  45  a=29.31%  b=27.34%  ens=28.19%  best_ens=55.71%@3  [4.4s]
+  ep  50  a=29.97%  b=28.52%  ens=29.00%  best_ens=55.71%@3  [5.4s]
+  ep  55  a=31.27%  b=29.10%  ens=30.01%  best_ens=55.71%@3  [4.2s]
+  ep  60  a=30.45%  b=30.75%  ens=30.51%  best_ens=55.71%@3  [4.3s]
+  ep  65  a=30.98%  b=30.20%  ens=30.57%  best_ens=55.71%@3  [4.3s]
+  ep  70  a=30.97%  b=30.95%  ens=30.94%  best_ens=55.71%@3  [4.4s]
+  ep  75  a=30.42%  b=30.38%  ens=30.43%  best_ens=55.71%@3  [5.4s]
+  ep  80  a=31.37%  b=30.99%  ens=31.23%  best_ens=55.71%@3  [4.3s]
+  ep  85  a=31.67%  b=30.92%  ens=31.40%  best_ens=55.71%@3  [4.1s]
+  ep  90  a=31.14%  b=30.97%  ens=31.20%  best_ens=55.71%@3  [4.4s]
+  ep  95  a=31.40%  b=31.26%  ens=31.38%  best_ens=55.71%@3  [4.2s]
+  ep  99  a=31.45%  b=31.25%  ens=31.41%  best_ens=55.71%@3  [5.4s]
+  DONE  best_ens=55.71%  saved glass_blur_sev5__S__dividemix__noisy__seed0.json + persample.npz
+
+# exit=0

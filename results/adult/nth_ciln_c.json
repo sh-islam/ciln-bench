@@ -1,0 +1,95 @@
+{
+  "settings": [
+    {
+      "name": "gaussian_noise_sev1",
+      "noise_rate": 0.0018440116661962553,
+      "m1_rate_variance": 0.0009112140201165894,
+      "m2_frobenius": 0.0012419354002472524
+    },
+    {
+      "name": "gaussian_noise_sev3",
+      "noise_rate": 0.013039796782387807,
+      "m1_rate_variance": 0.0088040805954897,
+      "m2_frobenius": 0.010992063514523863
+    },
+    {
+      "name": "gaussian_noise_sev5",
+      "noise_rate": 0.029955781352902434,
+      "m1_rate_variance": 0.021469382388916377,
+      "m2_frobenius": 0.02587952729940842
+    },
+    {
+      "name": "missing_mar_sev1",
+      "noise_rate": 0.015071972904318373,
+      "m1_rate_variance": 0.01521640604563042,
+      "m2_frobenius": 0.01181865420773327
+    },
+    {
+      "name": "missing_mar_sev3",
+      "noise_rate": 0.06990309530529683,
+      "m1_rate_variance": 0.05896484801784174,
+      "m2_frobenius": 0.04493857004222577
+    },
+    {
+      "name": "missing_mar_sev5",
+      "noise_rate": 0.1355536739109982,
+      "m1_rate_variance": 0.08116505374049521,
+      "m2_frobenius": 0.06104716379428657
+    },
+    {
+      "name": "missing_mcar_sev1",
+      "noise_rate": 0.015542384043654153,
+      "m1_rate_variance": 0.018854968583778893,
+      "m2_frobenius": 0.013589317040099485
+    },
+    {
+      "name": "missing_mcar_sev3",
+      "noise_rate": 0.07105089848527613,
+      "m1_rate_variance": 0.06217180601846026,
+      "m2_frobenius": 0.04662757881345174
+    },
+    {
+      "name": "missing_mcar_sev5",
+      "noise_rate": 0.1416878351679368,
+      "m1_rate_variance": 0.08480417182650812,
+      "m2_frobenius": 0.06318338121036367
+    },
+    {
+      "name": "missing_mnar_sev1",
+      "noise_rate": 0.018684730454417157,
+      "m1_rate_variance": 0.016110739734825023,
+      "m2_frobenius": 0.012871276946525146
+    },
+    {
+      "name": "missing_mnar_sev3",
+      "noise_rate": 0.09141029259572866,
+      "m1_rate_variance": 0.05968587891056557,
+      "m2_frobenius": 0.045720833834362755
+    },
+    {
+      "name": "missing_mnar_sev5",
+      "noise_rate": 0.17100385737134255,
+      "m1_rate_variance": 0.041200313908877434,
+      "m2_frobenius": 0.038534930395195635
+    },
+    {
+      "name": "scaling_sev1",
+      "noise_rate": 0.018458933107535984,
+      "m1_rate_variance": 0.005514537941775587,
+      "m2_frobenius": 0.01769923852659207
+    },
+    {
+      "name": "scaling_sev3",
+      "noise_rate": 0.0859347069338602,
+      "m1_rate_variance": 0.02208983428829363,
+      "m2_frobenius": 0.07125180422689578
+    },
+    {
+      "name": "scaling_sev5",
+      "noise_rate": 0.1699501364192304,
+      "m1_rate_variance": 0.03491806087136639,
+      "m2_frobenius": 0.11219521763637058
+    }
+  ],
+  "note": "CILN-C variant: per-row metrics computed after applying the clean-correct mask (10629/13566 = 78.35% survivors). Mask requires all 5 voters (xgboost, catboost, mlp, ft_transformer, tabpfn) to correctly classify the clean NLT input."
+}

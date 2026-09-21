@@ -1,0 +1,27 @@
+# 2026-07-16T18:33:03.054879 | cmd = python /path/to/ciln-workspace/experiments/downstream_multimodal/train_mnist/train_mnist_coteaching.py --setting rotate_sev5 --variant C --image-source clean --seed 2 --gpu 2
+[MNIST CoT] rotate_sev5__C__coteaching__clean__seed2  gpu=2
+  N=26107  tau=63.85%
+  ep   0  R(t)=1.000  a=43.15%  b=41.17%  ens=42.15%  best_ens=42.15%@0
+  ep   5  R(t)=0.548  a=47.26%  b=45.17%  ens=46.25%  best_ens=47.58%@4
+  ep  10  R(t)=0.361  a=44.80%  b=44.16%  ens=44.62%  best_ens=56.60%@6
+  ep  15  R(t)=0.361  a=53.27%  b=52.95%  ens=53.29%  best_ens=56.60%@6
+  ep  20  R(t)=0.361  a=54.05%  b=52.93%  ens=53.60%  best_ens=56.60%@6
+  ep  25  R(t)=0.361  a=55.76%  b=55.02%  ens=55.43%  best_ens=56.60%@6
+  ep  30  R(t)=0.361  a=49.34%  b=49.76%  ens=49.50%  best_ens=56.76%@28
+  ep  35  R(t)=0.361  a=50.12%  b=51.89%  ens=51.19%  best_ens=56.76%@28
+  ep  40  R(t)=0.361  a=51.99%  b=51.03%  ens=51.67%  best_ens=56.76%@28
+  ep  45  R(t)=0.361  a=54.28%  b=54.87%  ens=54.62%  best_ens=56.76%@28
+  ep  50  R(t)=0.361  a=53.50%  b=53.87%  ens=53.70%  best_ens=57.45%@49
+  ep  55  R(t)=0.361  a=56.72%  b=56.61%  ens=56.86%  best_ens=57.45%@49
+  ep  60  R(t)=0.361  a=51.24%  b=51.58%  ens=51.41%  best_ens=57.45%@49
+  ep  65  R(t)=0.361  a=54.29%  b=55.73%  ens=55.26%  best_ens=57.45%@49
+  ep  70  R(t)=0.361  a=53.41%  b=53.69%  ens=53.62%  best_ens=57.45%@49
+  ep  75  R(t)=0.361  a=52.97%  b=53.23%  ens=53.28%  best_ens=57.45%@49
+  ep  80  R(t)=0.361  a=53.39%  b=53.63%  ens=53.42%  best_ens=57.45%@49
+  ep  85  R(t)=0.361  a=53.84%  b=54.18%  ens=54.11%  best_ens=57.45%@49
+  ep  90  R(t)=0.361  a=52.16%  b=52.53%  ens=52.29%  best_ens=57.45%@49
+  ep  95  R(t)=0.361  a=52.48%  b=52.64%  ens=52.54%  best_ens=57.45%@49
+  ep  99  R(t)=0.361  a=52.52%  b=52.60%  ens=52.58%  best_ens=57.45%@49
+  DONE  best_ens=57.45%  saved rotate_sev5__C__coteaching__clean__seed2.json + persample.npz
+
+# exit=0

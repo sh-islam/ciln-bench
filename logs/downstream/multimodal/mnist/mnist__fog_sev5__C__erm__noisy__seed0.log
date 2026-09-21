@@ -1,0 +1,27 @@
+# 2026-07-16T19:49:13.260932 | cmd = python /path/to/ciln-workspace/experiments/downstream_multimodal/train_mnist/train_mnist_erm.py --setting fog_sev5 --variant C --image-source noisy --seed 0 --gpu 1
+[MNIST ERM] fog_sev5__C__erm__noisy__seed0  gpu=1
+  N=26107  sampled_nr=38.47%  expected_nr=38.60%
+  ep   0  train_loss=1.6336  test_acc=76.96%  best=76.96%@0
+  ep   5  train_loss=1.0039  test_acc=89.27%  best=92.78%@3
+  ep  10  train_loss=0.9486  test_acc=82.10%  best=92.96%@7
+  ep  15  train_loss=0.9117  test_acc=90.08%  best=92.96%@7
+  ep  20  train_loss=0.8707  test_acc=88.61%  best=92.96%@7
+  ep  25  train_loss=0.8353  test_acc=79.03%  best=92.96%@7
+  ep  30  train_loss=0.7805  test_acc=78.90%  best=92.96%@7
+  ep  35  train_loss=0.7314  test_acc=74.37%  best=92.96%@7
+  ep  40  train_loss=0.6856  test_acc=67.40%  best=92.96%@7
+  ep  45  train_loss=0.6386  test_acc=71.29%  best=92.96%@7
+  ep  50  train_loss=0.5949  test_acc=68.62%  best=92.96%@7
+  ep  55  train_loss=0.5511  test_acc=61.99%  best=92.96%@7
+  ep  60  train_loss=0.5111  test_acc=70.18%  best=92.96%@7
+  ep  65  train_loss=0.4776  test_acc=68.82%  best=92.96%@7
+  ep  70  train_loss=0.4499  test_acc=67.76%  best=92.96%@7
+  ep  75  train_loss=0.4239  test_acc=66.85%  best=92.96%@7
+  ep  80  train_loss=0.4053  test_acc=66.52%  best=92.96%@7
+  ep  85  train_loss=0.3916  test_acc=65.05%  best=92.96%@7
+  ep  90  train_loss=0.3825  test_acc=65.88%  best=92.96%@7
+  ep  95  train_loss=0.3776  test_acc=65.53%  best=92.96%@7
+  ep  99  train_loss=0.3761  test_acc=65.48%  best=92.96%@7
+  DONE  best=92.96%  saved fog_sev5__C__erm__noisy__seed0.json + persample.npz
+
+# exit=0

@@ -1,0 +1,163 @@
+
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+ORDERING CHECKS
+============================================================
+
+--- Variant: tv_published ---
+
+[Tier check]
+  low: frost_sev1               TV=0.1332  vs  PL-IDN-low 0.1800  [ok]
+  low: pixelate_sev1            TV=0.1459  vs  PL-IDN-low 0.1800  [ok]
+  -> tier low: all_below=True  exceptions=[]
+  medium: elastic_transform_sev3   TV=0.2091  vs  PL-IDN-medium 0.3010  [ok]
+  medium: snow_sev3                TV=0.2266  vs  PL-IDN-medium 0.3010  [ok]
+  medium: gaussian_noise_sev1      TV=0.2474  vs  PL-IDN-medium 0.3010  [ok]
+  -> tier medium: all_below=True  exceptions=[]
+  high: contrast_sev5            TV=0.4864  vs  PL-IDN-high 0.7420  [ok]
+  high: gaussian_noise_sev3      TV=0.5070  vs  PL-IDN-high 0.7420  [ok]
+  high: shot_noise_sev5          TV=0.5549  vs  PL-IDN-high 0.7420  [ok]
+  high: pixelate_sev5            TV=0.5985  vs  PL-IDN-high 0.7420  [ok]
+  high: glass_blur_sev3          TV=0.6534  vs  PL-IDN-high 0.7420  [ok]
+  -> tier high: all_below=True  exceptions=[]
+
+[Top-10 check]
+  Top-10 by tv_published:
+    brightness_sev1          TV=0.1117  [in pub]
+    defocus_blur_sev1        TV=0.1131  [in pub]
+    fog_sev1                 TV=0.1133  [in pub]
+    contrast_sev1            TV=0.1176  [in pub]
+    brightness_sev3          TV=0.1260  [in pub]
+    frost_sev1               TV=0.1332  [in pub]
+    pixelate_sev1            TV=0.1459  [in pub]
+    fog_sev3                 TV=0.1542  [in pub]
+    snow_sev1                TV=0.1606  [in pub]
+    brightness_sev5          TV=0.1657  [in pub]
+  -> overlap with published Top-10: 10/10
+  -> min PL-IDN TV (0.1800) > max Top-10 TV (0.1657): True
+
+--- Variant: tv_full_upsampled ---
+
+[Tier check]
+  low: frost_sev1               TV=0.1270  vs  PL-IDN-low 0.0250  [FAIL]
+  low: pixelate_sev1            TV=0.1386  vs  PL-IDN-low 0.0250  [FAIL]
+  -> tier low: all_below=False  exceptions=['frost_sev1', 'pixelate_sev1']
+  medium: elastic_transform_sev3   TV=0.1988  vs  PL-IDN-medium 0.0724  [FAIL]
+  medium: snow_sev3                TV=0.2162  vs  PL-IDN-medium 0.0724  [FAIL]
+  medium: gaussian_noise_sev1      TV=0.2358  vs  PL-IDN-medium 0.0724  [FAIL]
+  -> tier medium: all_below=False  exceptions=['elastic_transform_sev3', 'snow_sev3', 'gaussian_noise_sev1']
+  high: contrast_sev5            TV=0.4628  vs  PL-IDN-high 0.1812  [FAIL]
+  high: gaussian_noise_sev3      TV=0.4857  vs  PL-IDN-high 0.1812  [FAIL]
+  high: shot_noise_sev5          TV=0.5341  vs  PL-IDN-high 0.1812  [FAIL]
+  high: pixelate_sev5            TV=0.5849  vs  PL-IDN-high 0.1812  [FAIL]
+  high: glass_blur_sev3          TV=0.6363  vs  PL-IDN-high 0.1812  [FAIL]
+  -> tier high: all_below=False  exceptions=['contrast_sev5', 'gaussian_noise_sev3', 'shot_noise_sev5', 'pixelate_sev5', 'glass_blur_sev3']
+
+[Top-10 check]
+  Top-10 by tv_full_upsampled:
+    brightness_sev1          TV=0.1063  [in pub]
+    defocus_blur_sev1        TV=0.1076  [in pub]
+    fog_sev1                 TV=0.1079  [in pub]
+    contrast_sev1            TV=0.1121  [in pub]
+    brightness_sev3          TV=0.1199  [in pub]
+    frost_sev1               TV=0.1270  [in pub]
+    pixelate_sev1            TV=0.1386  [in pub]
+    fog_sev3                 TV=0.1466  [in pub]
+    snow_sev1                TV=0.1530  [in pub]
+    brightness_sev5          TV=0.1580  [in pub]
+  -> overlap with published Top-10: 10/10
+  -> min PL-IDN TV (0.0250) > max Top-10 TV (0.1580): False
+
+--- Variant: tv_full_raw ---
+
+[Tier check]
+  low: frost_sev1               TV=0.1110  vs  PL-IDN-low 0.0186  [FAIL]
+  low: pixelate_sev1            TV=0.1207  vs  PL-IDN-low 0.0186  [FAIL]
+  -> tier low: all_below=False  exceptions=['frost_sev1', 'pixelate_sev1']
+  medium: elastic_transform_sev3   TV=0.1760  vs  PL-IDN-medium 0.0606  [FAIL]
+  medium: snow_sev3                TV=0.1914  vs  PL-IDN-medium 0.0606  [FAIL]
+  medium: gaussian_noise_sev1      TV=0.2116  vs  PL-IDN-medium 0.0606  [FAIL]
+  -> tier medium: all_below=False  exceptions=['elastic_transform_sev3', 'snow_sev3', 'gaussian_noise_sev1']
+  high: contrast_sev5            TV=0.4601  vs  PL-IDN-high 0.1715  [FAIL]
+  high: gaussian_noise_sev3      TV=0.4816  vs  PL-IDN-high 0.1715  [FAIL]
+  high: shot_noise_sev5          TV=0.5348  vs  PL-IDN-high 0.1715  [FAIL]
+  high: pixelate_sev5            TV=0.5723  vs  PL-IDN-high 0.1715  [FAIL]
+  high: glass_blur_sev3          TV=0.6319  vs  PL-IDN-high 0.1715  [FAIL]
+  -> tier high: all_below=False  exceptions=['contrast_sev5', 'gaussian_noise_sev3', 'shot_noise_sev5', 'pixelate_sev5', 'glass_blur_sev3']
+
+[Top-10 check]
+  Top-10 by tv_full_raw:
+    brightness_sev1          TV=0.0942  [in pub]
+    defocus_blur_sev1        TV=0.0953  [in pub]
+    fog_sev1                 TV=0.0954  [in pub]
+    contrast_sev1            TV=0.0989  [in pub]
+    brightness_sev3          TV=0.1050  [in pub]
+    frost_sev1               TV=0.1110  [in pub]
+    pixelate_sev1            TV=0.1207  [in pub]
+    fog_sev3                 TV=0.1278  [in pub]
+    snow_sev1                TV=0.1326  [in pub]
+    brightness_sev5          TV=0.1368  [in pub]
+  -> overlap with published Top-10: 10/10
+  -> min PL-IDN TV (0.0186) > max Top-10 TV (0.1368): False
+
+[Global rank stability across 45 CILN-S settings]
+  Spearman(published vs full_upsampled) = 0.9997  (target >=0.95)
+  Spearman(published vs full_raw)       = 0.9996  (target >=0.95)
