@@ -15,7 +15,9 @@ CILN-Bench is a collection of datasets with instance-dependent label noise. Each
 
 Data and checkpoint links point to anonymized copies for double-blind review and will be replaced by the public repositories upon acceptance. All numbers in the paper can be rebuilt from the code and shipped data in this repository (see `docs/reproducing.md`).
 
-Voter checkpoints: https://anonymous-hf.com/a/ujf4akhdes5n/ The full list of settings with noise rates is in `results/released_settings.json`.
+Voter checkpoints: https://anonymous-hf.com/a/ujf4akhdes5n/
+
+The full list of settings with noise rates is in `results/released_settings.json`.
 
 Each setting has the clean inputs, the corrupted inputs, the true labels, every voter's softmax, the average softmax, the corruption seed of every row, and the training labels we sampled for the paper. Each dataset also has its clean-start mask and its split index files.
 
