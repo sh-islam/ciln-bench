@@ -6,16 +6,16 @@ CILN-Bench is a collection of datasets with instance-dependent label noise. Each
 
 ## Release
 
-| Dataset | Settings | Voters | Noise rate | Hugging Face dataset | Docs |
+| Dataset | Settings | Voters | Noise rate | Data | Docs |
 |---|---|---|---|---|---|
-| CIFAR-10 | 45 | 4 | 8.3% to 75.0% | `sh-islam/ciln-bench-cifar10` | `docs/datasets/cifar10.md` |
-| MNIST | 29 | 4 | 2.5% to 71.5% | `sh-islam/ciln-bench-mnist` | `docs/datasets/mnist.md` |
-| Adult | 15 | 5 | 14.7% to 26.3% | `sh-islam/ciln-bench-adult` | `docs/datasets/adult.md` |
-| AG-News | 6 | 4 | 13.0% to 46.6% | `sh-islam/ciln-bench-agnews` | `docs/datasets/agnews.md` |
+| CIFAR-10 | 45 | 4 | 8.3% to 75.0% | https://anonymous-hf.com/a/g3nwfqoaqms0/ | `docs/datasets/cifar10.md` |
+| MNIST | 29 | 4 | 2.5% to 71.5% | https://anonymous-hf.com/a/h9g9t866pbpb/ | `docs/datasets/mnist.md` |
+| Adult | 15 | 5 | 14.7% to 26.3% | https://anonymous-hf.com/a/w0xq70avlbfl/ | `docs/datasets/adult.md` |
+| AG-News | 6 | 4 | 13.0% to 46.6% | https://anonymous-hf.com/a/evqc75c3pjf7/ | `docs/datasets/agnews.md` |
 
-Dataset and checkpoint links are redacted for double-blind review and will be restored upon acceptance. All numbers in the paper can be rebuilt from the code and shipped data in this repository (see `docs/reproducing.md`).
+Data and checkpoint links point to anonymized copies for double-blind review and will be replaced by the public repositories upon acceptance. All numbers in the paper can be rebuilt from the code and shipped data in this repository (see `docs/reproducing.md`).
 
-Voter checkpoints are in the Hugging Face model repo `sh-islam/ciln-bench-voters`. The full list of settings with noise rates is in `results/released_settings.json`.
+Voter checkpoints: https://anonymous-hf.com/a/ujf4akhdes5n/ The full list of settings with noise rates is in `results/released_settings.json`.
 
 Each setting has the clean inputs, the corrupted inputs, the true labels, every voter's softmax, the average softmax, the corruption seed of every row, and the training labels we sampled for the paper. Each dataset also has its clean-start mask and its split index files.
 
