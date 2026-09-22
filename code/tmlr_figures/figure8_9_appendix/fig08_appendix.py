@@ -2,9 +2,9 @@
 
 Row 1 (fig8_dist_row.pdf): corruption-induced label distributions —
 adult mcar, adult mnar, agnews butter-fingers, agnews front-truncation.
-Clean = TRUE labels (thesis convention). Adult sampled labels use the
+Clean = TRUE labels (paper convention). Adult sampled labels use the
 reference fig02 rng voter-pick protocol (adult was in that script); AG-News
-uses MAJORITY VOTE of per-voter argmax — validated: reproduces the thesis
+uses MAJORITY VOTE of per-voter argmax — validated: reproduces the paper
 sev-5 flip-distribution table (tab:agnews_flip_dist) to <5e-5 on all 24
 cells.
 
@@ -12,7 +12,7 @@ Row 2 (fig8_nth_row.pdf): NTH by family — adult Missing (mcar/mar/mnar),
 adult Value (gaussian, scaling), agnews Character (butter-fingers),
 agnews Structural (front-truncation). NTH computed with the one-hot
 argmax implementation validated 12/12 vs v2_all_native.json on CIFAR and
-6/6 vs thesis prose AG-News values.
+6/6 vs paper prose AG-News values.
 
 Run: python fig08_appendix.py <fig02_data> <fig8_data> <out-dir>
 """
@@ -73,7 +73,7 @@ def rng_pick_labels(d, voters):
 
 
 def majority_labels(d, voters, n_classes):
-    """Thesis AG-News protocol (validated vs tab:agnews_flip_dist)."""
+    """Paper AG-News protocol (validated vs tab:agnews_flip_dist)."""
     am = np.stack([np.load(d / f"softmax_{v}.npy").argmax(1) for v in voters])
     counts = np.apply_along_axis(np.bincount, 0, am, minlength=n_classes)
     return counts.argmax(0)

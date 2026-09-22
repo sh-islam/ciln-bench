@@ -1,5 +1,5 @@
 """Shared plotting style: reference reproduction-script structure,
-CILN thesis viridis palette, pub-ready-plots TMLR standardization."""
+CILN paper viridis palette, pub-ready-plots TMLR standardization."""
 from pathlib import Path
 
 import matplotlib.colors as mcolors

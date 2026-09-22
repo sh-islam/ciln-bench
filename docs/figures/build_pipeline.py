@@ -375,5 +375,5 @@ def render_pptx(out_path):
 
 if __name__ == '__main__':
     HERE = Path(__file__).parent
-    render_pdf(HERE / 'pipeline_thesis.pdf')
-    render_pptx(HERE / 'pipeline_thesis.pptx')
+    render_pdf(HERE / 'pipeline.pdf')
+    render_pptx(HERE / 'pipeline.pptx')

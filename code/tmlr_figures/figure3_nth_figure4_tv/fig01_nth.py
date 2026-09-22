@@ -1,9 +1,9 @@
 """NTH panels (paper Fig 3): reference fig01 layout — x=severity level, one bar
-per corruption, in-panel legend — with thesis families, thesis viridis
+per corruption, in-panel legend — with paper families, paper viridis
 palette, and pub-ready TMLR sizing.
 
-Data: v2_all_native.json (m2_frobenius == thesis NTH, verified against the
-thesis characterisation table).
+Data: v2_all_native.json (m2_frobenius == paper NTH, verified against the
+paper characterisation table).
 Run:  python fig01_nth.py <path-to-v2_all_native.json> <out-dir>
 """
 import json
@@ -25,7 +25,7 @@ CANONICAL = {
     "fog": "fog", "frost": "frost", "snow": "snow", "brightness": "brightness",
 }
 
-# thesis families (brightness -> Weather, elastic/jpeg -> Digital, no Geometric)
+# paper families (brightness -> Weather, elastic/jpeg -> Digital, no Geometric)
 SUPER = [
     ("Noise",   ["gaussian_noise", "shot_noise", "impulse_noise"],            0.478),
     ("Blur",    ["defocus_blur", "glass_blur", "motion_blur", "zoom_blur"],   0.456),

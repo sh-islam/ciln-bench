@@ -1,10 +1,10 @@
 """TV panels (paper Fig 4): reference fig04 layout — x=severity level, one bar
 per corruption, GU (PL-IDN) reference lines with low/med labels — with the
-new verified TV data, thesis families, thesis viridis palette, pub-ready
+new verified TV data, paper families, paper viridis palette, pub-ready
 TMLR sizing.
 
 Data: tv_cifar_all_settings.csv (S variant; verified digit-for-digit against
-the thesis characterisation table on all 10 matched settings).
+the paper characterisation table on all 10 matched settings).
 Run:  python fig04_tv.py <path-to-tv_cifar_all_settings.csv> <out-dir>
 """
 import csv
@@ -18,7 +18,7 @@ from plot_style_ciln import (
     REF_LINE_COLOR, make_panel, style_axes, darken_color, save_pdf,
 )
 
-GU_TV = {"low": 0.180, "med": 0.301}          # thesis: 0.180±0.005, 0.301±0.008
+GU_TV = {"low": 0.180, "med": 0.301}          # paper: 0.180±0.005, 0.301±0.008
 REF_LABEL = {"low": "low (0.18)", "med": "med (0.30)"}
 
 CANONICAL = {
@@ -29,7 +29,7 @@ CANONICAL = {
     "fog": "fog", "frost": "frost", "snow": "snow", "brightness": "brightness",
 }
 
-# thesis families
+# paper families
 SUPER = [
     ("Noise",   ["gaussian-noise", "shot-noise", "impulse-noise"],            0.478),
     ("Blur",    ["defocus-blur", "glass-blur", "motion-blur", "zoom-blur"],   0.456),

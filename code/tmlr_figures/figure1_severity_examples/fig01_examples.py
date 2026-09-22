@@ -1,6 +1,6 @@
 """Fig 1 example-image panels, rebuilt with paper-consistent typography.
 
-Images are the exact rasters embedded in the original thesis panel PDFs
+Images are the exact rasters embedded in the original paper panel PDFs
 (extracted with pdfimages); the pred labels are re-set below each image
 in the same serif style as the other figures, at a readable size.
 

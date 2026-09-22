@@ -289,7 +289,7 @@ def main():
         # pre-corruption images for noisylabeltrain and noisylabelvalid. The
         # latter two are needed downstream to compute the "all voters correct
         # on clean" mask for the noise-rate table filter (matches what the
-        # original thesis did on test, now applied to the relevant train half).
+        # original paper did on test, now applied to the relevant train half).
         ds_clean_root = clean_root / dataset
         for cs in ("cleanlabelvalid", "test", "noisylabeltrain_clean", "noisylabelvalid_clean"):
             (ds_clean_root / cs).mkdir(parents=True, exist_ok=True)

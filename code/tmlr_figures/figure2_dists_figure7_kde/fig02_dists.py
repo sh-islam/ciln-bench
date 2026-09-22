@@ -1,6 +1,6 @@
 """Fig 2 (label distributions) + appendix kde (sorted-frequency) panels:
 reference fig02 logic — sampled labels via the PL-IDN protocol (seed 0) from raw
-voter softmaxes — with the thesis viridis severity palette and pub-ready TMLR
+voter softmaxes — with the paper viridis severity palette and pub-ready TMLR
 row layout matching Figs 3/4.
 
 Run: python fig02_dists.py <fig02-data-dir> <out-dir>
@@ -66,7 +66,7 @@ def label_share(labels, n_classes):
 
 
 def panel_dists(family, voters, root, n_classes, sevs=(1, 3, 5)):
-    # clean = TRUE labels (thesis convention), not voter-sampled labels
+    # clean = TRUE labels (paper convention), not voter-sampled labels
     clean = np.load(DATA / "clean" / root / "noisylabeltrain_clean" / "labels.npy")
     dists = [("clean", label_share(clean, n_classes))]
     for sev in sevs:

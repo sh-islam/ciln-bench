@@ -15,7 +15,7 @@ canonical scripts. Nothing was retrained or re-inferred.
 Produced by `journal_edition/idn_2x2/tv_vs_cifar10h.py` — per-image
 bincount of 4 CIFAR voters on the test-set corrupted images, then TV to
 per-image CIFAR-10H distribution, bootstrapped with 50 upsampling
-resamples for CI95. Matches the thesis's characterisation table exactly.
+resamples for CI95. Matches the paper's characterisation table exactly.
 
 **CILN-C rows (variant=C)**: N/A in this CSV. The CILN-C TV values are in `results/cifar10/tv_ciln_c.json`, computed on the test-split rows that pass the clean-start mask (`code/analyze/canonical/tv_clean_start.py`).
 

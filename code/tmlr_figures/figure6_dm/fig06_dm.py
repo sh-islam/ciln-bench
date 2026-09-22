@@ -1,6 +1,6 @@
 """Fig 6 (DM per-sample loss bimodality): reference fig06 kde_lines variant —
 clean vs noisy loss densities, 3 settings x 2 phases (warmup ep10 / final
-ep99), noisy-image scenario — with the thesis viridis loss palette and
+ep99), noisy-image scenario — with the paper viridis loss palette and
 pub-ready TMLR 2x3 grid. Data: dm_losses_<setting>_N_<phase>.csv (seed 0).
 
 Run: python fig06_dm.py <csv-dir> <out-dir>
