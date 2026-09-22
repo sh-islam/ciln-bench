@@ -20,4 +20,4 @@
 
 Severity controls the corrupted-row fraction: sev 1 hits 5% of rows, sev 3 hits 25%, sev 5 hits 50%. The corruption types and severity scheme follow Schelter et al. (EDBT 2021), "Jenga".
 
-The original Adult-specific code lives in [`code/corrupt/canonical/adult_funcs.py`](../../code/corrupt/canonical/adult_funcs.py). The public wrapper [`code/corrupt/public/tabular_corruptions.py`](../../code/corrupt/public/tabular_corruptions.py) is dataset-agnostic. Use `adult_config()` to reproduce the Adult pipeline, or pass your own `TabularCorruptionConfig` to corrupt any tabular dataset.
+The original Adult-specific code lives in `code/corrupt/canonical/adult_funcs.py`. The public wrapper `code/corrupt/public/tabular_corruptions.py` is dataset-agnostic. Use `adult_config()` to reproduce the Adult pipeline, or pass your own `TabularCorruptionConfig` to corrupt any tabular dataset.

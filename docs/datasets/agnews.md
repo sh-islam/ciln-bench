@@ -15,7 +15,7 @@
 | Character  | butter_fingers   | fraction of characters replaced by a keyboard-adjacent key: 0.05 / 0.15 / 0.30 | NL-Augmenter |
 | Structural | front_truncation | leading fraction of words deleted: 0.20 / 0.50 / 0.75 | ours, written in NL-Augmenter's format |
 
-Word-level corruptions (synonym substitution, word swap/deletion/shuffle, keyword removal) and surface-form corruptions (random casing, diacritic substitution) are implemented in [`code/corrupt/canonical/text/text_funcs.py`](../../code/corrupt/canonical/text/text_funcs.py) but excluded from the release: they stay under the 2.5% noise-rate floor on AG-News.
+Word-level corruptions (synonym substitution, word swap/deletion/shuffle, keyword removal) and surface-form corruptions (random casing, diacritic substitution) are implemented in `code/corrupt/canonical/text/text_funcs.py` but excluded from the release: they stay under the 2.5% noise-rate floor on AG-News.
 
 Noise rate ranges from 13.0% to 46.6% across the 6 released settings.
 

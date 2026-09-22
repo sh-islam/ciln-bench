@@ -22,9 +22,9 @@ Candidate rule: every continuous corruption contributes severities 1, 3, 5, exce
 
 `dotted_line_sev1` (2.4%), `motion_blur_sev1` (1.8%), `rotate_sev1` (1.6%), `shear_sev1` (1.6%), `shot_noise_sev1` (1.3%), `shot_noise_sev3` (1.8%).
 
-Released (29): brightness 1/3/5, canny_edges 1, fog 1/3/5, glass_blur 1/3/5, impulse_noise 1/3/5, motion_blur 3/5, rotate 3/5, scale 1, shear 3/5, shot_noise 5, spatter 1/3/5, stripe 1, translate 1/3/5, zigzag 1. Noise rate ranges from 2.5% to 71.5%. The full list is in [`results/released_settings.json`](../../results/released_settings.json).
+Released (29): brightness 1/3/5, canny_edges 1, fog 1/3/5, glass_blur 1/3/5, impulse_noise 1/3/5, motion_blur 3/5, rotate 3/5, scale 1, shear 3/5, shot_noise 5, spatter 1/3/5, stripe 1, translate 1/3/5, zigzag 1. Noise rate ranges from 2.5% to 71.5%. The full list is in `results/released_settings.json`.
 
-We follow Mu & Gilmer (2019), the MNIST-C reference. The corruption code lives in [`code/corrupt/canonical/mnist_funcs.py`](../../code/corrupt/canonical/mnist_funcs.py).
+We follow Mu & Gilmer (2019), the MNIST-C reference. The corruption code lives in `code/corrupt/canonical/mnist_funcs.py`.
 
 ## Reproducing the headline numbers
 

@@ -44,4 +44,4 @@ Every reported accuracy is the mean over three seeds of `best_test_acc` in the p
 python noisify_dataset.py
 ```
 
-Interactive CLI over the same corruption code. Input contract: [usage.md](usage.md).
+Interactive CLI over the same corruption code. Input contract: `usage.md`.

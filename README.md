@@ -6,16 +6,16 @@ CILN-Bench is a collection of datasets with instance-dependent label noise. Each
 
 ## Release
 
-| Dataset | Settings | Voters | Noise rate | Data | Docs |
+| Dataset | Settings | Voters | Noise rate | Hugging Face dataset | Docs |
 |---|---|---|---|---|---|
-| CIFAR-10 | 45 | 4 | 8.3% to 75.0% | [HF](https://huggingface.co/datasets/sh-islam/ciln-bench-cifar10) | [cifar10.md](docs/datasets/cifar10.md) |
-| MNIST | 29 | 4 | 2.5% to 71.5% | [HF](https://huggingface.co/datasets/sh-islam/ciln-bench-mnist) | [mnist.md](docs/datasets/mnist.md) |
-| Adult | 15 | 5 | 14.7% to 26.3% | [HF](https://huggingface.co/datasets/sh-islam/ciln-bench-adult) | [adult.md](docs/datasets/adult.md) |
-| AG-News | 6 | 4 | 13.0% to 46.6% | [HF](https://huggingface.co/datasets/sh-islam/ciln-bench-agnews) | [agnews.md](docs/datasets/agnews.md) |
+| CIFAR-10 | 45 | 4 | 8.3% to 75.0% | `sh-islam/ciln-bench-cifar10` | `docs/datasets/cifar10.md` |
+| MNIST | 29 | 4 | 2.5% to 71.5% | `sh-islam/ciln-bench-mnist` | `docs/datasets/mnist.md` |
+| Adult | 15 | 5 | 14.7% to 26.3% | `sh-islam/ciln-bench-adult` | `docs/datasets/adult.md` |
+| AG-News | 6 | 4 | 13.0% to 46.6% | `sh-islam/ciln-bench-agnews` | `docs/datasets/agnews.md` |
 
-Dataset and checkpoint links are redacted for double-blind review and will be restored upon acceptance. All numbers in the paper can be rebuilt from the code and shipped data in this repository (see [docs/reproducing.md](docs/reproducing.md)).
+Dataset and checkpoint links are redacted for double-blind review and will be restored upon acceptance. All numbers in the paper can be rebuilt from the code and shipped data in this repository (see `docs/reproducing.md`).
 
-Voter checkpoints: [sh-islam/ciln-bench-voters](https://huggingface.co/sh-islam/ciln-bench-voters). The full list of settings with noise rates is in [`results/released_settings.json`](results/released_settings.json).
+Voter checkpoints are in the Hugging Face model repo `sh-islam/ciln-bench-voters`. The full list of settings with noise rates is in `results/released_settings.json`.
 
 Each setting has the clean inputs, the corrupted inputs, the true labels, every voter's softmax, the average softmax, the corruption seed of every row, and the training labels we sampled for the paper. Each dataset also has its clean-start mask and its split index files.
 
@@ -42,6 +42,6 @@ docs/       dataset pages, reproducing.md, usage.md
 examples/   reproduction scripts
 ```
 
-[docs/reproducing.md](docs/reproducing.md) shows how to rebuild every number in the paper. `python noisify_dataset.py` corrupts your own data. See [docs/usage.md](docs/usage.md).
+`docs/reproducing.md` shows how to rebuild every number in the paper. `python noisify_dataset.py` corrupts your own data. See `docs/usage.md`.
 
 MIT license.

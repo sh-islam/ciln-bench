@@ -17,7 +17,7 @@
 | Weather    | fog, frost, snow, brightness                         |
 | Digital    | contrast, elastic_transform, jpeg_compression, pixelate |
 
-These are the standard CIFAR-C corruptions from Hendrycks & Dietterich (2019). We use their original code, kept verbatim, in [`code/corrupt/canonical/cifar_funcs.py`](../../code/corrupt/canonical/cifar_funcs.py).
+These are the standard CIFAR-C corruptions from Hendrycks & Dietterich (2019). We use their original code, kept verbatim, in `code/corrupt/canonical/cifar_funcs.py`.
 
 ## TV Distance
 
@@ -29,7 +29,7 @@ These are the standard CIFAR-C corruptions from Hendrycks & Dietterich (2019). W
 
 `results/cifar10/tv_ciln_c.json` holds the clean-start (CILN-C) values, and `results/cifar10/tv_full_reference_check.csv` recomputes TV against the full CIFAR-10H distribution without the 4-vote subsample (every ordering reported in the paper is unchanged. See the accompanying report).
 
-Clean implementation: [`code/analyze/public/tv.py`](../../code/analyze/public/tv.py). Reproduction script: [`examples/reproduce_tv.py`](../../examples/reproduce_tv.py).
+Clean implementation: `code/analyze/public/tv.py`. Reproduction script: `examples/reproduce_tv.py`.
 
 ## Reproducing the headline numbers
 
