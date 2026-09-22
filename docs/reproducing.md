@@ -36,7 +36,7 @@ Every reported accuracy is the mean over three seeds of `best_test_acc` in the p
 
 ## Figures
 
-`code/figures/` contains the scripts that produced the paper figures and their input data (Fig. 2 reads the released softmaxes directly. See `code/figures/data/fig02_severity_distributions/DATA_ON_HF.md`).
+`code/tmlr_figures/` contains the scripts that produced the paper figures and their input data (Fig. 2 reads the released softmaxes directly. See `code/tmlr_figures/data/fig02_severity_distributions/DATA_ON_HF.md`).
 
 ## Corrupt your own data
 
