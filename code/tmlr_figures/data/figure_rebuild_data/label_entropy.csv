@@ -1,0 +1,13 @@
+dataset,corruption,condition,entropy_bits
+cifar10,pixelate,clean,3.321928
+cifar10,pixelate,sev1,3.31826
+cifar10,pixelate,sev5,2.678319
+cifar10,gaussian-noise,clean,3.321928
+cifar10,gaussian-noise,sev1,3.292399
+cifar10,gaussian-noise,sev5,2.718324
+mnist,rotate,clean,3.319869
+mnist,rotate,sev1,3.319374
+mnist,rotate,sev5,3.174834
+mnist,brightness,clean,3.319869
+mnist,brightness,sev1,3.281008
+mnist,brightness,sev5,2.98412

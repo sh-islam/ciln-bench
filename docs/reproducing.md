@@ -36,7 +36,7 @@ Every reported accuracy is the mean over three seeds of `best_test_acc` in the p
 
 ## Figures
 
-`code/tmlr_figures/` contains the scripts that produced the paper figures and their input data (Fig. 2 reads the released softmaxes directly. See `code/tmlr_figures/data/fig02_severity_distributions/DATA_ON_HF.md`).
+`code/tmlr_figures/` is the figure bundle of the paper. `bash run_all.sh` inside it regenerates every figure into `out/`. Its `data/` folder has every input except the raw voter softmaxes, which are the released files. `code/tmlr_figures/data/softmaxes/README.md` says how to rebuild that folder from the Hugging Face datasets.
 
 ## Corrupt your own data
 
